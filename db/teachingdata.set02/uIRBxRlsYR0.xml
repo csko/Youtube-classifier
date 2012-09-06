@@ -1,0 +1,1041 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tva:TVAMain xmlns:tva="urn:tva:metadata:2011" xmlns:mpeg7="urn:tva:mpeg7:2008" xml:lang="en">
+  <tva:MetadataOriginationInformationTable>
+    <tva:MetadataOriginationInformation originID="1057109965">
+      <tva:Publisher>YouTube</tva:Publisher>
+      <tva:RightsOwner>Adam Sacks, http://gdata.youtube.com/feeds/api/users/IIadamSACKSII</tva:RightsOwner>
+    </tva:MetadataOriginationInformation>
+  </tva:MetadataOriginationInformationTable>
+  <tva:ProgramDescription>
+    <tva:ProgramInformationTable>
+      <tva:ProgramInformation fragmentId="125" fragmentVersion="0" programId="crid://youtube.com/uIRBxRlsYR0">
+        <tva:BasicDescription>
+          <tva:Title type="main" xml:lang="eng">LEAKED Official Apple iPhone 5 Promo Video - Keynote 2012</tva:Title>
+          <tva:Synopsis length="long" xml:lang="eng">The iPhone 5 is the best phone to take pictures of your food. www.adamthinks.com Written, directed and edited by Adam Sacks Starring Avery Monsen Shot by Matt Braunsdorf Food photography by Helen Rosner http</tva:Synopsis>
+          <tva:Genre href="urn:tva:metadata:cs:ContentCS:2011:3.5.7">
+            <tva:Name xml:lang="en">Comedy</tva:Name>
+          </tva:Genre>
+          <tva:Genre href="urn:tva:metadata:cs:FormatCS:2011:2.7.3.11">
+            <tva:Name xml:lang="en">Non-linear audio-video</tva:Name>
+            <tva:Definition xml:lang="en">Services where the interaction is based mostly around choosing alternate audio or video files - VOD and AOD, maybe combined with 2.1.1.15 (multi stream)</tva:Definition>
+          </tva:Genre>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:19">
+              <tva:Name xml:lang="en">Promotional Still Image</tva:Name>
+              <tva:Definition xml:lang="en">The resource points to a promotional still image for the content programme.</tva:Definition>
+            </tva:HowRelated>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>http://i.ytimg.com/vi/uIRBxRlsYR0/default.jpg</mpeg7:MediaUri>
+            </tva:MediaLocator>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:19">
+              <tva:Name xml:lang="en">Promotional Still Image</tva:Name>
+              <tva:Definition xml:lang="en">The resource points to a promotional still image for the content programme.</tva:Definition>
+            </tva:HowRelated>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>http://i.ytimg.com/vi/uIRBxRlsYR0/1.jpg</mpeg7:MediaUri>
+            </tva:MediaLocator>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:19">
+              <tva:Name xml:lang="en">Promotional Still Image</tva:Name>
+              <tva:Definition xml:lang="en">The resource points to a promotional still image for the content programme.</tva:Definition>
+            </tva:HowRelated>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>http://i.ytimg.com/vi/uIRBxRlsYR0/3.jpg</mpeg7:MediaUri>
+            </tva:MediaLocator>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:19">
+              <tva:Name xml:lang="en">Promotional Still Image</tva:Name>
+              <tva:Definition xml:lang="en">The resource points to a promotional still image for the content programme.</tva:Definition>
+            </tva:HowRelated>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>http://i.ytimg.com/vi/uIRBxRlsYR0/2.jpg</mpeg7:MediaUri>
+            </tva:MediaLocator>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:19">
+              <tva:Name xml:lang="en">Promotional Still Image</tva:Name>
+              <tva:Definition xml:lang="en">The resource points to a promotional still image for the content programme.</tva:Definition>
+            </tva:HowRelated>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>http://i.ytimg.com/vi/uIRBxRlsYR0/hqdefault.jpg</mpeg7:MediaUri>
+            </tva:MediaLocator>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:19">
+              <tva:Name xml:lang="en">Promotional Still Image</tva:Name>
+              <tva:Definition xml:lang="en">The resource points to a promotional still image for the content programme.</tva:Definition>
+            </tva:HowRelated>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>http://i.ytimg.com/vi/uIRBxRlsYR0/mqdefault.jpg</mpeg7:MediaUri>
+            </tva:MediaLocator>
+          </tva:RelatedMaterial>
+        </tva:BasicDescription>
+        <tva:AVAttributes>
+          <tva:FileFormat href="urn:ebu:metadata-cs:FileFormatCS_2010:7.2.12">
+            <tva:Name xml:lang="en">3GP</tva:Name>
+            <tva:Definition xml:lang="en">Third Generation Partnership Project (3GPP) file format</tva:Definition>
+          </tva:FileFormat>
+          <tva:AudioAttributes>
+            <tva:Coding href="urn:inem4u:metadata:cs:CodingCS:2009:1.4.3">
+              <tva:Name xml:lang="en">MPEG-2 Audio AAC</tva:Name>
+              <tva:Definition xml:lang="en">MPEG-2 Advanced Audio Coding</tva:Definition>
+            </tva:Coding>
+            <tva:NumOfChannels>2</tva:NumOfChannels>
+            <tva:SampleFrequency>44100</tva:SampleFrequency>
+          </tva:AudioAttributes>
+          <tva:VideoAttributes>
+            <tva:Coding href="urn:inem4u:metadata:cs:CodingCS:2009:2.9">
+              <tva:Name xml:lang="">H264</tva:Name>
+              <tva:Definition xml:lang="">ISO/IEC 14496-10 Video Codec. Also known as H.264</tva:Definition>
+            </tva:Coding>
+            <tva:HorizontalSize>176</tva:HorizontalSize>
+            <tva:VerticalSize>144</tva:VerticalSize>
+            <tva:AspectRatio>11:9</tva:AspectRatio>
+            <tva:Color type="color"/>
+          </tva:VideoAttributes>
+        </tva:AVAttributes>
+      </tva:ProgramInformation>
+    </tva:ProgramInformationTable>
+    <tva:ProgramLocationTable>
+      <tva:OnDemandService fragmentId="126" fragmentVersion="0" serviceIDRef="YouTube">
+        <tva:OnDemandProgram fragmentId="127" fragmentVersion="0" serviceIDRef="YouTube">
+          <tva:Program crid="crid://youtube.com/uIRBxRlsYR0"/>
+          <tva:ProgramURL>http://www.youtube.com/v/uIRBxRlsYR0?version=3&amp;f=videos&amp;c=iNEM4U&amp;app=youtube_gdata</tva:ProgramURL>
+          <tva:InstanceDescription>
+            <tva:AVAttributes>
+              <tva:AudioAttributes/>
+              <tva:VideoAttributes>
+                <tva:Color type="color"/>
+              </tva:VideoAttributes>
+            </tva:AVAttributes>
+          </tva:InstanceDescription>
+          <tva:PublishedDuration>PT0.113S</tva:PublishedDuration>
+        </tva:OnDemandProgram>
+        <tva:OnDemandProgram fragmentId="128" fragmentVersion="0" serviceIDRef="YouTube">
+          <tva:Program crid="crid://youtube.com/uIRBxRlsYR0"/>
+          <tva:ProgramURL>rtsp://v2.cache1.c.youtube.com/CioLENy73wIaIQkdYWwZxUGEuBMYDSANFEIGaU5FTTRVSAZSBnZpZGVvcww=/0/0/0/video.3gp</tva:ProgramURL>
+          <tva:InstanceDescription>
+            <tva:AVAttributes>
+              <tva:AudioAttributes/>
+              <tva:VideoAttributes>
+                <tva:Color type="color"/>
+              </tva:VideoAttributes>
+            </tva:AVAttributes>
+          </tva:InstanceDescription>
+          <tva:PublishedDuration>PT0.113S</tva:PublishedDuration>
+        </tva:OnDemandProgram>
+        <tva:OnDemandProgram fragmentId="129" fragmentVersion="0" serviceIDRef="YouTube">
+          <tva:Program crid="crid://youtube.com/uIRBxRlsYR0"/>
+          <tva:ProgramURL>rtsp://v6.cache8.c.youtube.com/CioLENy73wIaIQkdYWwZxUGEuBMYESARFEIGaU5FTTRVSAZSBnZpZGVvcww=/0/0/0/video.3gp</tva:ProgramURL>
+          <tva:InstanceDescription>
+            <tva:AVAttributes>
+              <tva:AudioAttributes/>
+              <tva:VideoAttributes>
+                <tva:Color type="color"/>
+              </tva:VideoAttributes>
+            </tva:AVAttributes>
+          </tva:InstanceDescription>
+          <tva:PublishedDuration>PT0.113S</tva:PublishedDuration>
+        </tva:OnDemandProgram>
+        <tva:OnDemandProgram fragmentId="130" fragmentVersion="0" serviceIDRef="YouTube">
+          <tva:Program crid="crid://youtube.com/uIRBxRlsYR0"/>
+          <tva:ProgramURL>http://www.youtube.com/watch?v=uIRBxRlsYR0&amp;hl=de_DE&amp;persist_hl=0&amp;fmt=17</tva:ProgramURL>
+          <tva:InstanceDescription>
+            <tva:AVAttributes>
+              <tva:FileFormat href="urn:ebu:metadata-cs:FileFormatCS_2010:7.2.12">
+                <tva:Name xml:lang="en">3GP</tva:Name>
+                <tva:Definition xml:lang="en">Third Generation Partnership Project (3GPP) file format</tva:Definition>
+              </tva:FileFormat>
+              <tva:AudioAttributes>
+                <tva:Coding href="urn:inem4u:metadata:cs:CodingCS:2009:1.4.3">
+                  <tva:Name xml:lang="en">MPEG-2 Audio AAC</tva:Name>
+                  <tva:Definition xml:lang="en">MPEG-2 Advanced Audio Coding</tva:Definition>
+                </tva:Coding>
+                <tva:NumOfChannels>2</tva:NumOfChannels>
+                <tva:SampleFrequency>44100</tva:SampleFrequency>
+              </tva:AudioAttributes>
+              <tva:VideoAttributes>
+                <tva:Coding href="urn:inem4u:metadata:cs:CodingCS:2009:2.9">
+                  <tva:Name xml:lang="">H264</tva:Name>
+                  <tva:Definition xml:lang="">ISO/IEC 14496-10 Video Codec. Also known as H.264</tva:Definition>
+                </tva:Coding>
+                <tva:HorizontalSize>176</tva:HorizontalSize>
+                <tva:VerticalSize>144</tva:VerticalSize>
+                <tva:AspectRatio>11:9</tva:AspectRatio>
+                <tva:Color type="color"/>
+              </tva:VideoAttributes>
+            </tva:AVAttributes>
+          </tva:InstanceDescription>
+          <tva:PublishedDuration>PT1M53S</tva:PublishedDuration>
+        </tva:OnDemandProgram>
+        <tva:OnDemandProgram fragmentId="131" fragmentVersion="0" serviceIDRef="YouTube">
+          <tva:Program crid="crid://youtube.com/uIRBxRlsYR0"/>
+          <tva:ProgramURL>http://www.youtube.com/watch?v=uIRBxRlsYR0&amp;hl=de_DE&amp;persist_hl=0&amp;fmt=34</tva:ProgramURL>
+          <tva:InstanceDescription>
+            <tva:AVAttributes>
+              <tva:FileFormat href="urn:ebu:metadata-cs:FileFormatCS_2010:7.2.15">
+                <tva:Name xml:lang="en">FLV</tva:Name>
+              </tva:FileFormat>
+              <tva:AudioAttributes>
+                <tva:Coding href="urn:inem4u:metadata:cs:CodingCS:2009:1.4.3">
+                  <tva:Name xml:lang="en">MPEG-2 Audio AAC</tva:Name>
+                  <tva:Definition xml:lang="en">MPEG-2 Advanced Audio Coding</tva:Definition>
+                </tva:Coding>
+                <tva:NumOfChannels>2</tva:NumOfChannels>
+                <tva:SampleFrequency>44100</tva:SampleFrequency>
+              </tva:AudioAttributes>
+              <tva:VideoAttributes>
+                <tva:Coding href="urn:inem4u:metadata:cs:CodingCS:2009:2.9">
+                  <tva:Name xml:lang="">H264</tva:Name>
+                  <tva:Definition xml:lang="">ISO/IEC 14496-10 Video Codec. Also known as H.264</tva:Definition>
+                </tva:Coding>
+                <tva:HorizontalSize>640</tva:HorizontalSize>
+                <tva:VerticalSize>360</tva:VerticalSize>
+                <tva:AspectRatio>16:9</tva:AspectRatio>
+                <tva:Color type="color"/>
+              </tva:VideoAttributes>
+            </tva:AVAttributes>
+          </tva:InstanceDescription>
+          <tva:PublishedDuration>PT1M53S</tva:PublishedDuration>
+        </tva:OnDemandProgram>
+        <tva:OnDemandProgram fragmentId="132" fragmentVersion="0" serviceIDRef="YouTube">
+          <tva:Program crid="crid://youtube.com/uIRBxRlsYR0"/>
+          <tva:ProgramURL>http://www.youtube.com/watch?v=uIRBxRlsYR0&amp;hl=de_DE&amp;persist_hl=0&amp;fmt=35</tva:ProgramURL>
+          <tva:InstanceDescription>
+            <tva:AVAttributes>
+              <tva:FileFormat href="urn:ebu:metadata-cs:FileFormatCS_2010:7.2.15">
+                <tva:Name xml:lang="en">FLV</tva:Name>
+              </tva:FileFormat>
+              <tva:AudioAttributes>
+                <tva:Coding href="urn:inem4u:metadata:cs:CodingCS:2009:1.4.3">
+                  <tva:Name xml:lang="en">MPEG-2 Audio AAC</tva:Name>
+                  <tva:Definition xml:lang="en">MPEG-2 Advanced Audio Coding</tva:Definition>
+                </tva:Coding>
+                <tva:NumOfChannels>2</tva:NumOfChannels>
+                <tva:SampleFrequency>44100</tva:SampleFrequency>
+              </tva:AudioAttributes>
+              <tva:VideoAttributes>
+                <tva:Coding href="urn:inem4u:metadata:cs:CodingCS:2009:2.9">
+                  <tva:Name xml:lang="">H264</tva:Name>
+                  <tva:Definition xml:lang="">ISO/IEC 14496-10 Video Codec. Also known as H.264</tva:Definition>
+                </tva:Coding>
+                <tva:HorizontalSize>854</tva:HorizontalSize>
+                <tva:VerticalSize>480</tva:VerticalSize>
+                <tva:AspectRatio>427:240</tva:AspectRatio>
+                <tva:Color type="color"/>
+              </tva:VideoAttributes>
+            </tva:AVAttributes>
+          </tva:InstanceDescription>
+          <tva:PublishedDuration>PT1M53S</tva:PublishedDuration>
+        </tva:OnDemandProgram>
+        <tva:OnDemandProgram fragmentId="133" fragmentVersion="0" serviceIDRef="YouTube">
+          <tva:Program crid="crid://youtube.com/uIRBxRlsYR0"/>
+          <tva:ProgramURL>http://www.youtube.com/watch?v=uIRBxRlsYR0&amp;hl=de_DE&amp;persist_hl=0&amp;fmt=18</tva:ProgramURL>
+          <tva:InstanceDescription>
+            <tva:AVAttributes>
+              <tva:FileFormat href="urn:ebu:metadata-cs:FileFormatCS_2010:7.2.2.2">
+                <tva:Name xml:lang="en">mp4</tva:Name>
+              </tva:FileFormat>
+              <tva:AudioAttributes>
+                <tva:Coding href="urn:inem4u:metadata:cs:CodingCS:2009:1.4.3">
+                  <tva:Name xml:lang="en">MPEG-2 Audio AAC</tva:Name>
+                  <tva:Definition xml:lang="en">MPEG-2 Advanced Audio Coding</tva:Definition>
+                </tva:Coding>
+                <tva:NumOfChannels>2</tva:NumOfChannels>
+                <tva:SampleFrequency>44100</tva:SampleFrequency>
+              </tva:AudioAttributes>
+              <tva:VideoAttributes>
+                <tva:Coding href="urn:inem4u:metadata:cs:CodingCS:2009:2.9">
+                  <tva:Name xml:lang="">H264</tva:Name>
+                  <tva:Definition xml:lang="">ISO/IEC 14496-10 Video Codec. Also known as H.264</tva:Definition>
+                </tva:Coding>
+                <tva:HorizontalSize>640</tva:HorizontalSize>
+                <tva:VerticalSize>360</tva:VerticalSize>
+                <tva:AspectRatio>16:9</tva:AspectRatio>
+                <tva:Color type="color"/>
+              </tva:VideoAttributes>
+            </tva:AVAttributes>
+          </tva:InstanceDescription>
+          <tva:PublishedDuration>PT1M53S</tva:PublishedDuration>
+        </tva:OnDemandProgram>
+        <tva:OnDemandProgram fragmentId="134" fragmentVersion="0" serviceIDRef="YouTube">
+          <tva:Program crid="crid://youtube.com/uIRBxRlsYR0"/>
+          <tva:ProgramURL>http://www.youtube.com/watch?v=uIRBxRlsYR0&amp;hl=de_DE&amp;persist_hl=0&amp;fmt=5</tva:ProgramURL>
+          <tva:InstanceDescription>
+            <tva:AVAttributes>
+              <tva:FileFormat href="urn:ebu:metadata-cs:FileFormatCS_2010:7.2.15">
+                <tva:Name xml:lang="en">FLV</tva:Name>
+              </tva:FileFormat>
+              <tva:AudioAttributes>
+                <tva:Coding href="urn:inem4u:metadata:cs:CodingCS:2009:1.4.4">
+                  <tva:Name xml:lang="en">MP3</tva:Name>
+                  <tva:Definition xml:lang="en">MP3 Audio Coding</tva:Definition>
+                </tva:Coding>
+                <tva:NumOfChannels>2</tva:NumOfChannels>
+                <tva:SampleFrequency>22050</tva:SampleFrequency>
+              </tva:AudioAttributes>
+              <tva:VideoAttributes>
+                <tva:Coding href="urn:inem4u:metadata:cs:CodingCS:2009:2.8">
+                  <tva:Name xml:lang="en">H263</tva:Name>
+                  <tva:Definition xml:lang="en">H263 Video Coding Format</tva:Definition>
+                </tva:Coding>
+                <tva:HorizontalSize>320</tva:HorizontalSize>
+                <tva:VerticalSize>240</tva:VerticalSize>
+                <tva:AspectRatio>4:3</tva:AspectRatio>
+                <tva:Color type="color"/>
+              </tva:VideoAttributes>
+            </tva:AVAttributes>
+          </tva:InstanceDescription>
+          <tva:PublishedDuration>PT1M53S</tva:PublishedDuration>
+        </tva:OnDemandProgram>
+        <tva:OnDemandProgram fragmentId="135" fragmentVersion="0" serviceIDRef="YouTube">
+          <tva:Program crid="crid://youtube.com/uIRBxRlsYR0"/>
+          <tva:ProgramURL>http://www.youtube.com/watch?v=uIRBxRlsYR0&amp;hl=de_DE&amp;persist_hl=0&amp;fmt=36</tva:ProgramURL>
+          <tva:InstanceDescription>
+            <tva:AVAttributes>
+              <tva:FileFormat href="urn:ebu:metadata-cs:FileFormatCS_2010:7.2.12">
+                <tva:Name xml:lang="en">3GP</tva:Name>
+                <tva:Definition xml:lang="en">Third Generation Partnership Project (3GPP) file format</tva:Definition>
+              </tva:FileFormat>
+              <tva:AudioAttributes>
+                <tva:Coding href="urn:inem4u:metadata:cs:CodingCS:2009:1.4.3">
+                  <tva:Name xml:lang="en">MPEG-2 Audio AAC</tva:Name>
+                  <tva:Definition xml:lang="en">MPEG-2 Advanced Audio Coding</tva:Definition>
+                </tva:Coding>
+                <tva:NumOfChannels>2</tva:NumOfChannels>
+                <tva:SampleFrequency>44100</tva:SampleFrequency>
+              </tva:AudioAttributes>
+              <tva:VideoAttributes>
+                <tva:Coding href="urn:inem4u:metadata:cs:CodingCS:2009:2.9">
+                  <tva:Name xml:lang="">H264</tva:Name>
+                  <tva:Definition xml:lang="">ISO/IEC 14496-10 Video Codec. Also known as H.264</tva:Definition>
+                </tva:Coding>
+                <tva:HorizontalSize>320</tva:HorizontalSize>
+                <tva:VerticalSize>240</tva:VerticalSize>
+                <tva:AspectRatio>4:3</tva:AspectRatio>
+                <tva:Color type="color"/>
+              </tva:VideoAttributes>
+            </tva:AVAttributes>
+          </tva:InstanceDescription>
+          <tva:PublishedDuration>PT1M53S</tva:PublishedDuration>
+        </tva:OnDemandProgram>
+        <tva:OnDemandProgram fragmentId="136" fragmentVersion="0" serviceIDRef="YouTube">
+          <tva:Program crid="crid://youtube.com/uIRBxRlsYR0"/>
+          <tva:ProgramURL>http://www.youtube.com/watch?v=uIRBxRlsYR0&amp;hl=de_DE&amp;persist_hl=0&amp;fmt=43</tva:ProgramURL>
+          <tva:InstanceDescription>
+            <tva:AVAttributes>
+              <tva:AudioAttributes>
+                <tva:NumOfChannels>2</tva:NumOfChannels>
+                <tva:SampleFrequency>44100</tva:SampleFrequency>
+              </tva:AudioAttributes>
+              <tva:VideoAttributes>
+                <tva:HorizontalSize>640</tva:HorizontalSize>
+                <tva:VerticalSize>360</tva:VerticalSize>
+                <tva:AspectRatio>16:9</tva:AspectRatio>
+                <tva:Color type="color"/>
+              </tva:VideoAttributes>
+            </tva:AVAttributes>
+          </tva:InstanceDescription>
+          <tva:PublishedDuration>PT1M53S</tva:PublishedDuration>
+        </tva:OnDemandProgram>
+        <tva:OnDemandProgram fragmentId="137" fragmentVersion="0" serviceIDRef="YouTube">
+          <tva:Program crid="crid://youtube.com/uIRBxRlsYR0"/>
+          <tva:ProgramURL>http://www.youtube.com/watch?v=uIRBxRlsYR0&amp;hl=de_DE&amp;persist_hl=0&amp;fmt=44</tva:ProgramURL>
+          <tva:InstanceDescription>
+            <tva:AVAttributes>
+              <tva:AudioAttributes>
+                <tva:NumOfChannels>2</tva:NumOfChannels>
+                <tva:SampleFrequency>44100</tva:SampleFrequency>
+              </tva:AudioAttributes>
+              <tva:VideoAttributes>
+                <tva:HorizontalSize>854</tva:HorizontalSize>
+                <tva:VerticalSize>480</tva:VerticalSize>
+                <tva:AspectRatio>427:240</tva:AspectRatio>
+                <tva:Color type="color"/>
+              </tva:VideoAttributes>
+            </tva:AVAttributes>
+          </tva:InstanceDescription>
+          <tva:PublishedDuration>PT1M53S</tva:PublishedDuration>
+        </tva:OnDemandProgram>
+      </tva:OnDemandService>
+    </tva:ProgramLocationTable>
+    <tva:ServiceInformationTable>
+      <tva:ServiceInformation fragmentId="161" fragmentVersion="0" serviceId="YouTube">
+        <tva:Name>YouTube</tva:Name>
+        <tva:ServiceURL>http://www.youtube.com/</tva:ServiceURL>
+        <tva:Logo>
+          <mpeg7:MediaUri>file:/I:/IRT/F-RFK/workspace/YouTube%20CIS/java_classes/de/irt/inem4u/youtube/YouTubeContentInformationSource.png</mpeg7:MediaUri>
+        </tva:Logo>
+      </tva:ServiceInformation>
+    </tva:ServiceInformationTable>
+    <tva:ProgramReviewTable>
+      <tva:Review fragmentId="138" fragmentVersion="0" programId="crid://youtube.com/uIRBxRlsYR0">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">galaxy camera copy this﻿ idea</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:GivenName>Htet</mpeg7:GivenName>
+            <mpeg7:FamilyName>Pye</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-05T10:16:31+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/justinjiang</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="139" fragmentVersion="0" programId="crid://youtube.com/uIRBxRlsYR0">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">STOP calling﻿ it the iPhone 5, IT'S THE 6TH iPHONE!!!!!!!!!!</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>AceNinja10</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-05T05:51:18+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/AceNinja10</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="140" fragmentVersion="0" programId="crid://youtube.com/uIRBxRlsYR0">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">That will be so funny and hilarious if every company in the world start suing each other hahaha sugar company's for using the same ingredient and cereal for having cereal as there ingredient and phones for having round edges where is apple going for??  Taking control of the universe﻿</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>livelifehopeyou</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-05T06:47:40+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/livelifehopeyou</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="141" fragmentVersion="0" programId="crid://youtube.com/uIRBxRlsYR0">
+        <Adult>true</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">I can't believe ppl on this planet can be that stupid &amp; think this shit is real﻿ if it was, he'd basically be calling iPhone owners lonely, losers, desperate for human connections without the contact!? LMFAO</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>shimmyfingers</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-05T08:27:44+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/shimmyfingers</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="142" fragmentVersion="0" programId="crid://youtube.com/uIRBxRlsYR0">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">Blackberry﻿ for life!</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>Brendanberlingeri</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-05T06:20:55+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/Brendanberlingeri</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="143" fragmentVersion="0" programId="crid://youtube.com/uIRBxRlsYR0">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">i want one ! when do they﻿ come out?</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>MrRousemouse1</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-05T08:00:00+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/MrRousemouse1</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="144" fragmentVersion="0" programId="crid://youtube.com/uIRBxRlsYR0">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">u no wat thats true u no apple always focus on﻿ the camera and screen quality</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>haseebproductions</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-05T10:29:07+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/haseebproductions</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="145" fragmentVersion="0" programId="crid://youtube.com/uIRBxRlsYR0">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">, I wonder what exciting and new and original features it's going to have! Maybe some more features taken from jailbroken phones. Maybe a revolutionary new screen which has slightly﻿ more pixels than the last one but you can't even tell!</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>0Roy666</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-05T10:27:03+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/0Roy666</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="146" fragmentVersion="0" programId="crid://youtube.com/uIRBxRlsYR0">
+        <Adult>true</Adult>
+        <Spam>true</Spam>
+        <tva:FreeTextReview xml:lang="en">the title is wrong its the new 60d update...﻿</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>AustinLeach15</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-05T06:06:42+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/AustinLeach15</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="147" fragmentVersion="0" programId="crid://youtube.com/uIRBxRlsYR0">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">No.  The last release was iPhone 4S.  Following Apple's﻿ pattern, this will be 5.  And Apple's conference invitation had a 5 looming in its shadow.</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>flywithjacob</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-05T06:35:47+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/flywithjacob</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="148" fragmentVersion="0" programId="crid://youtube.com/uIRBxRlsYR0">
+        <Adult>true</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">Dumbass....﻿</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>Casper1786</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-05T06:44:40+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/Casper1786</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="149" fragmentVersion="0" programId="crid://youtube.com/uIRBxRlsYR0">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">Lol﻿</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>anthonyroxx47</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-05T07:03:53+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/anthonyroxx47</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="150" fragmentVersion="0" programId="crid://youtube.com/uIRBxRlsYR0">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">haha you guys are awesome!!
+﻿</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>joellali</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-05T05:38:58+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/joellali</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="151" fragmentVersion="0" programId="crid://youtube.com/uIRBxRlsYR0">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">I agree with this,
+
+apple world is gonna change....the new iphone 5? has amazing features
+
+check out
+
+tinyurl .c﻿ o m/738frcm</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>jesuskline975</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-05T09:32:46+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/jesuskline975</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="152" fragmentVersion="0" programId="crid://youtube.com/uIRBxRlsYR0">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">You just went﻿ full retard</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>DeadiskoFactory</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-05T07:50:55+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/DeadiskoFactory</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="153" fragmentVersion="0" programId="crid://youtube.com/uIRBxRlsYR0">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">I was excited to check it before﻿ watchin the whole thing now it ruined my mood wtf its for lonely sad n desperate ppl lmao silly camera fo taking food piks  N his last impression was like pls giv me a break like i care wat u eat</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>susankamkhan</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-05T09:59:06+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/susankamkhan</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="154" fragmentVersion="0" programId="crid://youtube.com/uIRBxRlsYR0">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">check this out...goophone(chinese clone company)will sue apple if apple release iphone 5 in china﻿ gizmodo(dot)com/5940253/chinese-clone-company-will-sue-apple-over-iphone-5-design?tag=iphone-5</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>yupickmyusername</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-05T08:14:28+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/yupickmyusername</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="155" fragmentVersion="0" programId="crid://youtube.com/uIRBxRlsYR0">
+        <Adult>true</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">iphone﻿ my cock</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>simsek03</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-05T08:29:33+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/simsek03</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="156" fragmentVersion="0" programId="crid://youtube.com/uIRBxRlsYR0">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">Holy!!!! thew﻿ new iphone 5 details...... LEAKED!!! nowread(DOT)us/iphone5</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>nzsociables</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-05T08:21:29+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/nzsociables</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="157" fragmentVersion="0" programId="crid://youtube.com/uIRBxRlsYR0">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">uh oh, watch out Canon and Nikon,﻿ Apple's gunning for you guys next! lol</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>bchreng</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-05T05:35:17+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/bchreng</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="158" fragmentVersion="0" programId="crid://youtube.com/uIRBxRlsYR0">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">Haha love it good﻿ laugh seriously people learn to laugh it's more they being a hater</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>luke4360</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-05T09:35:16+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/luke4360</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="159" fragmentVersion="0" programId="crid://youtube.com/uIRBxRlsYR0">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">That is﻿ great.</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>jorgipogi</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-05T06:23:21+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/jorgipogi</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="160" fragmentVersion="0" programId="crid://youtube.com/uIRBxRlsYR0">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">Perfect for Instagram. Definitely﻿ getting this!</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>ToluUK</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-05T10:10:21+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/ToluUK</tva:ReviewReference>
+      </tva:Review>
+      <ReviewerData>
+        <Reviewer>
+          <Username>Pye</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>0</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>0</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>true</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>AceNinja10</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>2</UserSubscriptionsAdded>
+          <VideosCommented>8</VideosCommented>
+          <VideosFavourited>9</VideosFavourited>
+          <VideosRated>6</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>livelifehopeyou</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>7</VideosCommented>
+          <VideosFavourited>6</VideosFavourited>
+          <VideosRated>12</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>shimmyfingers</Username>
+          <Age>34</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>MALE</Gender>
+          <LastWebAccess>2012-09-05 06:27</LastWebAccess>
+          <Location>US</Location>
+          <SubscriberCount>3</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>0</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>0</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>Brendanberlingeri</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>0</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>0</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>3</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>MrRousemouse1</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>14</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>11</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>haseebproductions</Username>
+          <Age>20</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>MALE</Gender>
+          <LastWebAccess>2011-05-18 18:49</LastWebAccess>
+          <Location>GB</Location>
+          <SubscriberCount>1</SubscriberCount>
+          <UserSubscriptionsAdded>3</UserSubscriptionsAdded>
+          <VideosCommented>13</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>9</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>0Roy666</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>1</UserSubscriptionsAdded>
+          <VideosCommented>0</VideosCommented>
+          <VideosFavourited>23</VideosFavourited>
+          <VideosRated>1</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>AustinLeach15</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>2</UserSubscriptionsAdded>
+          <VideosCommented>11</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>12</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>flywithjacob</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>1</UserSubscriptionsAdded>
+          <VideosCommented>15</VideosCommented>
+          <VideosFavourited>2</VideosFavourited>
+          <VideosRated>2</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>5</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>Casper1786</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>3</UserSubscriptionsAdded>
+          <VideosCommented>6</VideosCommented>
+          <VideosFavourited>1</VideosFavourited>
+          <VideosRated>15</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>anthonyroxx47</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>4</UserSubscriptionsAdded>
+          <VideosCommented>15</VideosCommented>
+          <VideosFavourited>5</VideosFavourited>
+          <VideosRated>1</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>joellali</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>6</UserSubscriptionsAdded>
+          <VideosCommented>7</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>11</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>1</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>jesuskline975</Username>
+          <Age>23</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>FEMALE</Gender>
+          <LastWebAccess>2011-08-31 16:17</LastWebAccess>
+          <Location>US</Location>
+          <SubscriberCount>41</SubscriberCount>
+          <UserSubscriptionsAdded>1</UserSubscriptionsAdded>
+          <VideosCommented>4</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>1</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>1</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>DeadiskoFactory</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>1</UserSubscriptionsAdded>
+          <VideosCommented>2</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>4</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>susankamkhan</Username>
+          <Age>29</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>FEMALE</Gender>
+          <Hometown>hong kong</Hometown>
+          <LastWebAccess>2012-08-01 17:23</LastWebAccess>
+          <Location>HK</Location>
+          <SubscriberCount>2</SubscriberCount>
+          <UserSubscriptionsAdded>1</UserSubscriptionsAdded>
+          <VideosCommented>2</VideosCommented>
+          <VideosFavourited>18</VideosFavourited>
+          <VideosRated>4</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>yupickmyusername</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>MALE</Gender>
+          <LastWebAccess>2012-07-08 07:28</LastWebAccess>
+          <Location>MY</Location>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>3</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>0</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>1</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>simsek03</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>10</VideosCommented>
+          <VideosFavourited>3</VideosFavourited>
+          <VideosRated>12</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>nzsociables</Username>
+          <Age>39</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>MALE</Gender>
+          <LastWebAccess>2011-08-27 07:20</LastWebAccess>
+          <Location>US</Location>
+          <SubscriberCount>10</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>1</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>0</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>1</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>bchreng</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>1</UserSubscriptionsAdded>
+          <VideosCommented>15</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>9</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>luke4360</Username>
+          <Age>23</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>MALE</Gender>
+          <LastWebAccess>2012-09-02 01:05</LastWebAccess>
+          <Location>AU</Location>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>2</UserSubscriptionsAdded>
+          <VideosCommented>2</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>3</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>jorgipogi</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>1</UserSubscriptionsAdded>
+          <VideosCommented>0</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>24</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>toluuk</Username>
+          <Age>20</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>MALE</Gender>
+          <LastWebAccess>2012-08-22 22:54</LastWebAccess>
+          <Location>GB</Location>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>3</UserSubscriptionsAdded>
+          <VideosCommented>1</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>21</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+      </ReviewerData>
+    </tva:ProgramReviewTable>
+  </tva:ProgramDescription>
+</tva:TVAMain>

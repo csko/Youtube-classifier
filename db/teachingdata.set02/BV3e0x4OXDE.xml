@@ -1,0 +1,909 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tva:TVAMain xmlns:tva="urn:tva:metadata:2011" xmlns:mpeg7="urn:tva:mpeg7:2008" xml:lang="en">
+  <tva:MetadataOriginationInformationTable>
+    <tva:MetadataOriginationInformation originID="769430567">
+      <tva:Publisher>YouTube</tva:Publisher>
+      <tva:RightsOwner>mixorb, http://gdata.youtube.com/feeds/api/users/mixorb</tva:RightsOwner>
+    </tva:MetadataOriginationInformation>
+  </tva:MetadataOriginationInformationTable>
+  <tva:ProgramDescription>
+    <tva:ProgramInformationTable>
+      <tva:ProgramInformation fragmentId="76" fragmentVersion="0" programId="crid://youtube.com/BV3e0x4OXDE">
+        <tva:BasicDescription>
+          <tva:Title type="main" xml:lang="eng">Lil Wayne - Mercy ft. Nicki Minaj (Dedication 4)</tva:Title>
+          <tva:Synopsis length="long" xml:lang="eng">Lil Wayne - Mercy ft. Nicki Minaj (Dedication 4) Lil Wayne - Mercy Lil Wayne - Mercy Lil Wayne - Mercy Lil Wayne - Mercy Lil Wayne - Mercy</tva:Synopsis>
+          <tva:Genre href="urn:tva:metadata:cs:ContentCS:2011:3.5">
+            <tva:Name xml:lang="en">AMUSEMENT/ENTERTAINMENT</tva:Name>
+          </tva:Genre>
+          <tva:Genre href="urn:tva:metadata:cs:FormatCS:2011:2.7.3.11">
+            <tva:Name xml:lang="en">Non-linear audio-video</tva:Name>
+            <tva:Definition xml:lang="en">Services where the interaction is based mostly around choosing alternate audio or video files - VOD and AOD, maybe combined with 2.1.1.15 (multi stream)</tva:Definition>
+          </tva:Genre>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:19">
+              <tva:Name xml:lang="en">Promotional Still Image</tva:Name>
+              <tva:Definition xml:lang="en">The resource points to a promotional still image for the content programme.</tva:Definition>
+            </tva:HowRelated>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>http://i.ytimg.com/vi/BV3e0x4OXDE/mqdefault.jpg</mpeg7:MediaUri>
+            </tva:MediaLocator>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:19">
+              <tva:Name xml:lang="en">Promotional Still Image</tva:Name>
+              <tva:Definition xml:lang="en">The resource points to a promotional still image for the content programme.</tva:Definition>
+            </tva:HowRelated>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>http://i.ytimg.com/vi/BV3e0x4OXDE/2.jpg</mpeg7:MediaUri>
+            </tva:MediaLocator>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:19">
+              <tva:Name xml:lang="en">Promotional Still Image</tva:Name>
+              <tva:Definition xml:lang="en">The resource points to a promotional still image for the content programme.</tva:Definition>
+            </tva:HowRelated>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>http://i.ytimg.com/vi/BV3e0x4OXDE/default.jpg</mpeg7:MediaUri>
+            </tva:MediaLocator>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:19">
+              <tva:Name xml:lang="en">Promotional Still Image</tva:Name>
+              <tva:Definition xml:lang="en">The resource points to a promotional still image for the content programme.</tva:Definition>
+            </tva:HowRelated>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>http://i.ytimg.com/vi/BV3e0x4OXDE/1.jpg</mpeg7:MediaUri>
+            </tva:MediaLocator>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:19">
+              <tva:Name xml:lang="en">Promotional Still Image</tva:Name>
+              <tva:Definition xml:lang="en">The resource points to a promotional still image for the content programme.</tva:Definition>
+            </tva:HowRelated>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>http://i.ytimg.com/vi/BV3e0x4OXDE/hqdefault.jpg</mpeg7:MediaUri>
+            </tva:MediaLocator>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:19">
+              <tva:Name xml:lang="en">Promotional Still Image</tva:Name>
+              <tva:Definition xml:lang="en">The resource points to a promotional still image for the content programme.</tva:Definition>
+            </tva:HowRelated>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>http://i.ytimg.com/vi/BV3e0x4OXDE/3.jpg</mpeg7:MediaUri>
+            </tva:MediaLocator>
+          </tva:RelatedMaterial>
+        </tva:BasicDescription>
+        <tva:AVAttributes>
+          <tva:AudioAttributes/>
+          <tva:VideoAttributes>
+            <tva:Color type="color"/>
+          </tva:VideoAttributes>
+        </tva:AVAttributes>
+      </tva:ProgramInformation>
+    </tva:ProgramInformationTable>
+    <tva:ProgramLocationTable>
+      <tva:OnDemandService fragmentId="77" fragmentVersion="0" serviceIDRef="YouTube">
+        <tva:OnDemandProgram fragmentId="78" fragmentVersion="0" serviceIDRef="YouTube">
+          <tva:Program crid="crid://youtube.com/BV3e0x4OXDE"/>
+          <tva:ProgramURL>http://www.youtube.com/v/BV3e0x4OXDE?version=3&amp;f=videos&amp;c=iNEM4U&amp;app=youtube_gdata</tva:ProgramURL>
+          <tva:InstanceDescription>
+            <tva:AVAttributes>
+              <tva:AudioAttributes/>
+              <tva:VideoAttributes>
+                <tva:Color type="color"/>
+              </tva:VideoAttributes>
+            </tva:AVAttributes>
+          </tva:InstanceDescription>
+          <tva:PublishedDuration>PT0.297S</tva:PublishedDuration>
+        </tva:OnDemandProgram>
+        <tva:OnDemandProgram fragmentId="79" fragmentVersion="0" serviceIDRef="YouTube">
+          <tva:Program crid="crid://youtube.com/BV3e0x4OXDE"/>
+          <tva:ProgramURL>rtsp://v2.cache7.c.youtube.com/CioLENy73wIaIQkxXA4e095dBRMYDSANFEIGaU5FTTRVSAZSBnZpZGVvcww=/0/0/0/video.3gp</tva:ProgramURL>
+          <tva:InstanceDescription>
+            <tva:AVAttributes>
+              <tva:AudioAttributes/>
+              <tva:VideoAttributes>
+                <tva:Color type="color"/>
+              </tva:VideoAttributes>
+            </tva:AVAttributes>
+          </tva:InstanceDescription>
+          <tva:PublishedDuration>PT0.297S</tva:PublishedDuration>
+        </tva:OnDemandProgram>
+        <tva:OnDemandProgram fragmentId="80" fragmentVersion="0" serviceIDRef="YouTube">
+          <tva:Program crid="crid://youtube.com/BV3e0x4OXDE"/>
+          <tva:ProgramURL>rtsp://v5.cache8.c.youtube.com/CioLENy73wIaIQkxXA4e095dBRMYESARFEIGaU5FTTRVSAZSBnZpZGVvcww=/0/0/0/video.3gp</tva:ProgramURL>
+          <tva:InstanceDescription>
+            <tva:AVAttributes>
+              <tva:AudioAttributes/>
+              <tva:VideoAttributes>
+                <tva:Color type="color"/>
+              </tva:VideoAttributes>
+            </tva:AVAttributes>
+          </tva:InstanceDescription>
+          <tva:PublishedDuration>PT0.297S</tva:PublishedDuration>
+        </tva:OnDemandProgram>
+      </tva:OnDemandService>
+    </tva:ProgramLocationTable>
+    <tva:ServiceInformationTable>
+      <tva:ServiceInformation fragmentId="106" fragmentVersion="0" serviceId="YouTube">
+        <tva:Name>YouTube</tva:Name>
+        <tva:ServiceURL>http://www.youtube.com/</tva:ServiceURL>
+        <tva:Logo>
+          <mpeg7:MediaUri>file:/I:/IRT/F-RFK/workspace/YouTube%20CIS/java_classes/de/irt/inem4u/youtube/YouTubeContentInformationSource.png</mpeg7:MediaUri>
+        </tva:Logo>
+      </tva:ServiceInformation>
+    </tva:ServiceInformationTable>
+    <tva:ProgramReviewTable>
+      <tva:Review fragmentId="81" fragmentVersion="0" programId="crid://youtube.com/BV3e0x4OXDE">
+        <Adult>true</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">DID HE JUST﻿ SAY I SUCK DICK?</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>asser1</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-04T15:47:01+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/asser1</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="82" fragmentVersion="0" programId="crid://youtube.com/BV3e0x4OXDE">
+        <Adult>true</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">You lazy bitches fucking up the﻿ economy @lilkim</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>chanelpradalui</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-04T15:14:22+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/chanelpradalui</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="83" fragmentVersion="0" programId="crid://youtube.com/BV3e0x4OXDE">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">Stfu and﻿ listen damn</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>wezmarie</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-04T15:34:08+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/wezmarie</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="84" fragmentVersion="0" programId="crid://youtube.com/BV3e0x4OXDE">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">Somebody please tell﻿ me what "Diablo, Alejandro, demelo gandi " mean! at the end of nick verse!</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>optimustimmy1</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-04T15:31:45+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/optimustimmy1</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="85" fragmentVersion="0" programId="crid://youtube.com/BV3e0x4OXDE">
+        <Adult>true</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">Nicki﻿ Minaj is fucking beast !!!! love this verse</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>kekedashion</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-04T15:20:17+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/kekedashion</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="86" fragmentVersion="0" programId="crid://youtube.com/BV3e0x4OXDE">
+        <Adult>true</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">MAN G.O.O.D MUSIC SHOULD BE THE ONLY MFS ON THIS BEAT ...... THIS SHIT WAS﻿ TERRIBLE</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>AutoMaticBliss</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-04T15:40:42+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/AutoMaticBliss</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="87" fragmentVersion="0" programId="crid://youtube.com/BV3e0x4OXDE">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">its actually confusing cuz she says she﻿ a republican. but republicans are lazy because they dont have to work for the money.</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:GivenName>Damon</mpeg7:GivenName>
+            <mpeg7:FamilyName>Matthews</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-04T15:24:18+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/SUPERHUMANGT</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="88" fragmentVersion="0" programId="crid://youtube.com/BV3e0x4OXDE">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">Nicki Killed﻿ iT ! Done Deal</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>BlACkkGiiRl</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-04T15:27:07+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/BlACkkGiiRl</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="89" fragmentVersion="0" programId="crid://youtube.com/BV3e0x4OXDE">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">k.﻿</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>dopegary216</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-04T15:29:24+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/dopegary216</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="90" fragmentVersion="0" programId="crid://youtube.com/BV3e0x4OXDE">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">AYO NICKI NICKI NICKI....You﻿ Killed It</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>MusaTheGenie</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-04T15:43:21+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/MusaTheGenie</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="91" fragmentVersion="0" programId="crid://youtube.com/BV3e0x4OXDE">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">she said﻿ ima republic and voting for mitt romney that means shes voting for mitt romney! dont try to change it around</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>gunskill20</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-04T15:38:06+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/gunskill20</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="92" fragmentVersion="0" programId="crid://youtube.com/BV3e0x4OXDE">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">ur﻿ really dumb , its called a punchline hun.</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:GivenName>ioana</mpeg7:GivenName>
+            <mpeg7:FamilyName>minaj</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-04T15:42:10+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/BamitzRayray</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="93" fragmentVersion="0" programId="crid://youtube.com/BV3e0x4OXDE">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">why are you here then...i mean if you think that?~﻿</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>RoyaltyTblue7</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-04T15:34:10+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/RoyaltyTblue7</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="94" fragmentVersion="0" programId="crid://youtube.com/BV3e0x4OXDE">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">hell yeah nicki voting for﻿ mitt romney!!!!!!! cuz we all broke!!!!!!!!</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>gunskill20</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-04T15:22:59+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/gunskill20</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="95" fragmentVersion="0" programId="crid://youtube.com/BV3e0x4OXDE">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">I hope its﻿ all females that thought nicki part was the best lls</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>0Yunggunna</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-04T15:41:17+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/0Yunggunna</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="96" fragmentVersion="0" programId="crid://youtube.com/BV3e0x4OXDE">
+        <Adult>true</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">ROFL nicki is﻿ that bitch !!!! SHE KILLED IT SON #ROMANEMPIRE !</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>ViscosityWasted</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-04T15:53:01+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/ViscosityWasted</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="97" fragmentVersion="0" programId="crid://youtube.com/BV3e0x4OXDE">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">Ctfu ﻿</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>0Yunggunna</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-04T15:42:58+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/0Yunggunna</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="98" fragmentVersion="0" programId="crid://youtube.com/BV3e0x4OXDE">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">You're﻿ stupid</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>DankDonny29</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-04T15:18:42+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/DankDonny29</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="99" fragmentVersion="0" programId="crid://youtube.com/BV3e0x4OXDE">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">Haha Nicki is﻿ fire in this song, what a beast :)</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>xxjaycexx100</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-04T15:39:55+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/xxjaycexx100</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="100" fragmentVersion="0" programId="crid://youtube.com/BV3e0x4OXDE">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">Weezy a beast ﻿ Best RAPPer ALIVE</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:GivenName>Michael</mpeg7:GivenName>
+            <mpeg7:FamilyName>Goebel</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-04T15:55:50+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/zQMs6b9gefTX-pyBAnKboA</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="101" fragmentVersion="0" programId="crid://youtube.com/BV3e0x4OXDE">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">This is a Nicki Minaj﻿ song, basically.</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>whateverdv</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-04T15:17:53+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/whateverdv</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="102" fragmentVersion="0" programId="crid://youtube.com/BV3e0x4OXDE">
+        <Adult>true</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">I'ma Republican, voting for Mitt Romney." You﻿ lazy bitches is fuckin up the economy. She's talking ABOUT ya'll, not with ya'll. Dumbasses.</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:GivenName>ioana</mpeg7:GivenName>
+            <mpeg7:FamilyName>minaj</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-04T15:49:59+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/BamitzRayray</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="103" fragmentVersion="0" programId="crid://youtube.com/BV3e0x4OXDE">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">Oh jesus...gotta go listen to the original again. This beat went to waste in YMCMB﻿ hands.</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:GivenName>Wrath In</mpeg7:GivenName>
+            <mpeg7:FamilyName>HD</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-04T15:50:19+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/wrathinhd</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="104" fragmentVersion="0" programId="crid://youtube.com/BV3e0x4OXDE">
+        <Adult>true</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">SHE DID NOT VOTE FOR MATT. ITS THROWING SHADE @ HIM . SHE SAID 'U﻿ LAZY BITCHES IF FUCKING UP THE ECONMEY'.</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:GivenName>ioana</mpeg7:GivenName>
+            <mpeg7:FamilyName>minaj</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-04T15:34:17+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/BamitzRayray</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="105" fragmentVersion="0" programId="crid://youtube.com/BV3e0x4OXDE">
+        <Adult>true</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">i swear﻿ this nigga just said i suck dick</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:GivenName>Pj</mpeg7:GivenName>
+            <mpeg7:FamilyName>Antony</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-09-04T15:36:03+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/Z1QbU9r_RWzbCBFoda3ZVA</tva:ReviewReference>
+      </tva:Review>
+      <ReviewerData>
+        <Reviewer>
+          <Username>asser1</Username>
+          <Age>26</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>MALE</Gender>
+          <LastWebAccess>2012-07-09 22:53</LastWebAccess>
+          <Location>US</Location>
+          <SubscriberCount>4</SubscriberCount>
+          <UserSubscriptionsAdded>2</UserSubscriptionsAdded>
+          <VideosCommented>14</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>7</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>2</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>chanelpradalui</Username>
+          <Age>18</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>FEMALE</Gender>
+          <LastWebAccess>2012-04-01 17:28</LastWebAccess>
+          <Location>US</Location>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>5</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>20</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>wezmarie</Username>
+          <Age>20</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>FEMALE</Gender>
+          <LastWebAccess>2011-11-13 06:09</LastWebAccess>
+          <Location>US</Location>
+          <SubscriberCount>1</SubscriberCount>
+          <UserSubscriptionsAdded>12</UserSubscriptionsAdded>
+          <VideosCommented>6</VideosCommented>
+          <VideosFavourited>2</VideosFavourited>
+          <VideosRated>5</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>optimustimmy1</Username>
+          <Age>22</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <LastWebAccess>2011-10-26 07:46</LastWebAccess>
+          <Location>US</Location>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>1</UserSubscriptionsAdded>
+          <VideosCommented>4</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>12</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>kekedashion</Username>
+          <Age>19</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>MALE</Gender>
+          <LastWebAccess>2011-06-01 00:52</LastWebAccess>
+          <Location>US</Location>
+          <SubscriberCount>2</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>12</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>13</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>automaticbliss</Username>
+          <Age>20</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>FEMALE</Gender>
+          <Hometown>Chicago</Hometown>
+          <LastWebAccess>2011-08-31 05:05</LastWebAccess>
+          <Location>Chicago, US</Location>
+          <Relationship>SINGLE</Relationship>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>2</UserSubscriptionsAdded>
+          <VideosCommented>18</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>5</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>matthews</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>FEMALE</Gender>
+          <Hometown>Boonvegas</Hometown>
+          <LastWebAccess>2012-06-29 04:31</LastWebAccess>
+          <Location>US</Location>
+          <Movies>The Bourne Supremacy; Ultimatum, The Contender, A Knight's Tale, Pirates of the Caribbean: The Black Pearl, Gangs of New York, The Departed</Movies>
+          <SubscriberCount>411</SubscriberCount>
+          <UserSubscriptionsAdded>8</UserSubscriptionsAdded>
+          <VideosCommented>0</VideosCommented>
+          <VideosFavourited>1</VideosFavourited>
+          <VideosRated>16</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>blackkgiirl</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>FEMALE</Gender>
+          <LastWebAccess>2011-12-14 14:10</LastWebAccess>
+          <Location>US</Location>
+          <Relationship>SINGLE</Relationship>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>4</UserSubscriptionsAdded>
+          <VideosCommented>4</VideosCommented>
+          <VideosFavourited>1</VideosFavourited>
+          <VideosRated>16</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>dopegary216</Username>
+          <Age>16</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>MALE</Gender>
+          <LastWebAccess>2012-09-04 12:24</LastWebAccess>
+          <Location>US</Location>
+          <SubscriberCount>11</SubscriberCount>
+          <UserSubscriptionsAdded>1</UserSubscriptionsAdded>
+          <VideosCommented>21</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>2</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>1</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>musathegenie</Username>
+          <Age>21</Age>
+          <Books>Mystery</Books>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>MALE</Gender>
+          <Job>College Student</Job>
+          <LastWebAccess>2011-08-09 13:09</LastWebAccess>
+          <Location>US</Location>
+          <Movies>Any</Movies>
+          <Music>Any</Music>
+          <School>VSU</School>
+          <SubscriberCount>1</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>8</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>17</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>gunskill20</Username>
+          <Age>23</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>MALE</Gender>
+          <LastWebAccess>2011-06-06 09:04</LastWebAccess>
+          <Location>US</Location>
+          <SubscriberCount>3</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>0</VideosCommented>
+          <VideosFavourited>6</VideosFavourited>
+          <VideosRated>0</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>5</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>minaj</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>0</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>0</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>true</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>royaltytblue7</Username>
+          <Age>16</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <LastWebAccess>2011-12-26 21:20</LastWebAccess>
+          <Location>US</Location>
+          <SubscriberCount>3</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>24</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>1</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>gunskill20</Username>
+          <Age>23</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>MALE</Gender>
+          <LastWebAccess>2011-06-06 09:04</LastWebAccess>
+          <Location>US</Location>
+          <SubscriberCount>3</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>0</VideosCommented>
+          <VideosFavourited>6</VideosFavourited>
+          <VideosRated>0</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>5</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>0yunggunna</Username>
+          <Age>26</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>MALE</Gender>
+          <LastWebAccess>2011-08-31 21:48</LastWebAccess>
+          <Location>US</Location>
+          <SubscriberCount>1</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>12</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>13</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>viscositywasted</Username>
+          <Age>19</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>FEMALE</Gender>
+          <Job>Eat, Pray, Love =)</Job>
+          <LastWebAccess>2012-08-31 21:18</LastWebAccess>
+          <Location>US</Location>
+          <Music>Nicki Minaj, Onika Maraj, Wait wait !!! Um ... Nicki Fuckin Minaj :)</Music>
+          <SubscriberCount>1</SubscriberCount>
+          <UserSubscriptionsAdded>2</UserSubscriptionsAdded>
+          <VideosCommented>15</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>8</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>0yunggunna</Username>
+          <Age>26</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>MALE</Gender>
+          <LastWebAccess>2011-08-31 21:48</LastWebAccess>
+          <Location>US</Location>
+          <SubscriberCount>1</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>12</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>13</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>dankdonny29</Username>
+          <Age>27</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>MALE</Gender>
+          <LastWebAccess>2011-12-15 18:59</LastWebAccess>
+          <Location>US</Location>
+          <SubscriberCount>1</SubscriberCount>
+          <UserSubscriptionsAdded>4</UserSubscriptionsAdded>
+          <VideosCommented>12</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>9</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>xxjaycexx100</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>MALE</Gender>
+          <LastWebAccess>2012-05-30 10:53</LastWebAccess>
+          <Location>AU</Location>
+          <SubscriberCount>10</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>0</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>0</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>Goebel</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>0</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>0</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>true</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>whateverdv</Username>
+          <Age>26</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>MALE</Gender>
+          <Hometown>Los Angeles</Hometown>
+          <LastWebAccess>2011-03-27 00:16</LastWebAccess>
+          <Location>Los Angeles, US</Location>
+          <SubscriberCount>87</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>0</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>0</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>15</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>minaj</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>0</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>0</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>true</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>hd</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <LastWebAccess>2012-02-08 01:32</LastWebAccess>
+          <SubscriberCount>388</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>0</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>0</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>10</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>minaj</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>0</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>0</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>true</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>Antony</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>1</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>3</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>true</UserAccountSuspended>
+        </Reviewer>
+      </ReviewerData>
+    </tva:ProgramReviewTable>
+  </tva:ProgramDescription>
+</tva:TVAMain>
