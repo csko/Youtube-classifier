@@ -38,7 +38,8 @@ def parse(doc):
         ctxt.setContextNode(u)
         keys = ['Username', 'SubscriberCount', 'School', 'VideosCommented', 'Relationship', 'VideosUploaded',
                 'Gender', 'Age', 'VideosRated', 'FriendsAdded', 'Books', 'Movies', 'Job', 'VideosShared', 'Music',
-                'Location', 'VideosFavourited', 'Hometown', 'UserSubscriptionsAdded', 'LastWebAccess']
+                'Location', 'VideosFavourited', 'Hometown', 'UserSubscriptionsAdded', 'LastWebAccess', 'UserAccountClosed',
+                'UserAccountSuspended']
         res = {}
         for key in keys:
             v = ctxt.xpathEval(key)
@@ -56,7 +57,11 @@ def parse(doc):
 
     reviews = [format_review(ctxt, r) for r in rev_x]
 
-    users = dict([(x['Username'], x) for x in [format_user(ctxt, u) for u in users_x]])
+    users = [format_user(ctxt, u) for u in users_x]
+    assert len(reviews) == len(users)
+    for i, review in enumerate(reviews):
+        reviews[i]['user'] = users[i]['Username']
+    users = dict([(x['Username'], x) for x in users])
 
     #reviews = [{'spam': r. for r in rev_x]
     #print owner
@@ -74,12 +79,24 @@ def parse(doc):
 
 def load_data():
     path = PROJECT + "db/teachingdata.set01/"
+    path2 = PROJECT + "db/teachingdata.set02/"
     videos = []
     users = {}
     reviews = []
     for fname in os.listdir(path):
-        print path + fname
+#        print path + fname
         data = codecs.open(path + fname, encoding='utf-8-sig').read().encode("utf-8")
+#        print data.encode("utf-8")
+        doc = libxml2.parseDoc(data)
+        video, userlist = parse(doc)
+        doc.freeDoc()
+
+        videos.append(video)
+        users.update(userlist)
+        reviews += video['reviews']
+    for fname in os.listdir(path2):
+#        print path2 + fname
+        data = codecs.open(path2 + fname, encoding='utf-8-sig').read().encode("utf-8")
 #        print data.encode("utf-8")
         doc = libxml2.parseDoc(data)
         video, userlist = parse(doc)
