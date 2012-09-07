@@ -23,13 +23,17 @@ from sklearn.feature_extraction import DictVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn import metrics
 
+PRINT_COEFS = True
 
 http_re = re.compile(r"((http|ftp|https):\/\/)?[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&amp;:/~\+#]*[\w\-\@?^=%&amp;/~\+#])?", re.IGNORECASE)
 oddities_re = re.compile(ur"(=|¡¿|·|\\|\^|~|…|“|”|ß|€)")
 tokenize2_re = re.compile(r"(\w+)([-\*.\\/#])+", re.UNICODE)
 # TODO: re: phone number
 
-bad_words = set([line.strip().lower() for line in open(PROJECT + 'db/badwords.txt')])
+bad_words = set([line.strip().lower() for line in open(PROJECT + 'db/badwords-adult.txt')])
+
+from collections import Counter
+all_words = Counter()
 
 def parse_text(text):
     # TODO: regex split
@@ -44,6 +48,8 @@ def parse_text(text):
     text = text.replace(u"\xe2\x80\x93", "-")
     text = text.replace(u"\xe2\x80\x94", "--")
     text = text.replace(u"\xe2\x80\xa6", "...")
+
+    text = text.replace(u"\ufeff", " ")
 
     text = text.replace(u"’", "'")
     text = text.replace(u"`", "'")
@@ -84,6 +90,7 @@ def create_features(X, user_data):
             doc[i] = wnl.lemmatize(doc[i])
 #            if doc[i] in bad_words:
 #                doc[i] = '_badword_'
+            all_words[doc[i]] += 1
 
 #        trigram_finder = TrigramCollocationFinder.from_words(comment)
 #        trigrams = trigram_finder.nbest(TrigramAssocMeasures.chi_sq, n=10)
@@ -122,18 +129,19 @@ def create_features(X, user_data):
 #        feat['_sent_var'] = len(set(sents)) / len(sents)
         feat['_unusual_ratio'] = unusual_ratio
 #        feat['_username'] = user
-        feat['_user_subcount'] = user_info['SubscriberCount']
-        feat['_user_friends'] = user_info['FriendsAdded']
-        feat['_user_favs'] = user_info['VideosFavourited']
-        feat['_user_videorates'] = user_info['VideosRated']
-        feat['_user_videouploads'] = user_info['VideosUploaded']
-        feat['_user_videocomments'] = user_info['VideosCommented']
-        feat['_user_videoshares'] = user_info['VideosShared']
-        feat['_user_usersubs'] = user_info['UserSubscriptionsAdded']
+        feat['_user_subcount'] = int(user_info['SubscriberCount'])
+        feat['_user_friends'] = int(user_info['FriendsAdded'])
+        feat['_user_favs'] = int(user_info['VideosFavourited'])
+        feat['_user_videorates'] = int(user_info['VideosRated'])
+        feat['_user_videouploads'] = int(user_info['VideosUploaded'])
+        feat['_user_videocomments'] = int(user_info['VideosCommented'])
+        feat['_user_videoshares'] = int(user_info['VideosShared'])
+        feat['_user_usersubs'] = int(user_info['UserSubscriptionsAdded'])
         feat['_user_gender'] =  c_none(user_info['Gender'])
         feat['_user_age'] =  n_none(user_info['Age'])
         feat['_user_closed'] = user_info['UserAccountClosed']
         feat['_user_suspended'] = user_info['UserAccountSuspended']
+        feat['_user_has_gender'] = 1 if user_info['Gender'] is not None else 0
         feat['_user_has_school'] = 1 if user_info['School'] is not None else 0
         feat['_user_has_books'] = 1 if user_info['Books'] is not None else 0
         feat['_user_has_movies'] = 1 if user_info['Movies'] is not None else 0
@@ -173,19 +181,26 @@ def main():
     print "Vectorizing features."
     v = DictVectorizer(sparse=False)
     feats = v.fit_transform(feats)
+#    print all_words.most_common(10);quit()
 
     print "Starting K-fold cross validation."
     k = 10
     cv = cross_validation.KFold(len(feats), k=k, indices=True)
 
-    from sklearn.ensemble import RandomForestClassifier
-
     cls = LogisticRegression(penalty='l2', tol=0.00001, fit_intercept=False, dual=False, C=2.4105, class_weight=None)
+    if PRINT_COEFS:
+        cls.fit(feats, y)
+        c = v.inverse_transform(cls.coef_)
+        for key, val in sorted(c[0].iteritems(), key=lambda x: x[1]):
+            if isinstance(key, str) and key.startswith("_"):
+                print key, val
+        quit()
 
     scores = cross_validation.cross_val_score(cls, feats, y, cv=10, score_func=metrics.f1_score)
     for i, score in enumerate(scores):
         print "Fold %d: %.5f" % (i, score)
     print "Mean score: %0.5f (+/- %0.2f)" % (scores.mean(), scores.std() / 2)
+
 
 if __name__ == "__main__":
     main()
