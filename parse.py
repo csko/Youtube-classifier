@@ -78,33 +78,23 @@ def parse(doc):
     return video, users
 
 def load_data():
-    path = PROJECT + "db/teachingdata.set01/"
+    path1 = PROJECT + "db/teachingdata.updated.set01/"
     path2 = PROJECT + "db/teachingdata.set02/"
     videos = []
     users = {}
     reviews = []
-    for fname in os.listdir(path):
-#        print path + fname
-        data = codecs.open(path + fname, encoding='utf-8-sig').read().encode("utf-8")
-#        print data.encode("utf-8")
-        doc = libxml2.parseDoc(data)
-        video, userlist = parse(doc)
-        doc.freeDoc()
+    for path in [path1]:
+        for fname in os.listdir(path):
+    #        print path + fname
+            data = codecs.open(path + fname, encoding='utf-8-sig').read().encode("utf-8")
+    #        print data.encode("utf-8")
+            doc = libxml2.parseDoc(data)
+            video, userlist = parse(doc)
+            doc.freeDoc()
 
-        videos.append(video)
-        users.update(userlist)
-        reviews += video['reviews']
-    for fname in os.listdir(path2):
-#        print path2 + fname
-        data = codecs.open(path2 + fname, encoding='utf-8-sig').read().encode("utf-8")
-#        print data.encode("utf-8")
-        doc = libxml2.parseDoc(data)
-        video, userlist = parse(doc)
-        doc.freeDoc()
-
-        videos.append(video)
-        users.update(userlist)
-        reviews += video['reviews']
+            videos.append(video)
+            users.update(userlist)
+            reviews += video['reviews']
     return videos, users, reviews
 
 def main():
