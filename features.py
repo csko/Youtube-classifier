@@ -7,6 +7,7 @@ import numpy as np
 import re
 import sys
 import codecs
+import yaml
 
 from parse import load_data, PROJECT
 from readability.readability import ReadabilityTool
@@ -31,7 +32,41 @@ http_re = re.compile(r"((http|ftp|https):\/\/)?[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^
 oddities_re = re.compile(ur"(=|¡¿|·|\\|\^|~|…|“|”|ß|€)")
 tokenize2_re = re.compile(r"(\w+)([-\*.\\/#])+", re.UNICODE)
 phonenumber_re = re.compile(r"(?:\+?1[-. ]?)?\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})")
+haha_re = re.compile(r"[ah]{4,20}", re.IGNORECASE)
+plain_number_re = re.compile(r"-?\d{2,7}(([,\.])\d{2,7})*")
+money_number_re = re.compile(r"[$€]-?\d{2,7}(([,\.])\d{2,7})*", re.UNICODE)
+smiley_re = re.compile(r"((?::|;|=)(?:-)?(?:\)|D|P))")
+reveal_words = yaml.load(open(PROJECT + 'db/corp/word_list_dirty_words/reveal_questionable_words.yaml').read())[0]['dataset']['payload'][0]['word_list']
+hate_words = set([x['word'].lower() for x in reveal_words if x['category'] == 'hate'])
+drug_words = set([x['word'].lower() for x in reveal_words if x['category'] == 'drug'])
+cult_words = set([x['word'].lower() for x in reveal_words if x['category'] == 'cult'])
+occult_words = set([x['word'].lower() for x in reveal_words if x['category'] == 'occult'])
+porn_words = set([x['word'].lower() for x in reveal_words if x['category'] == 'pornographic'])
+fwenzel_words = set([word for word in open(PROJECT + 'db/corp/word_list_dirty_words/word_list-fwenzel_reporter.txt').read().split("\n") if len(word.split()) == 1])
 
+def numrepl(m):
+    try:
+        x = m.group(0)
+        if u"$" in x or u"€" in x:
+            return " moneynumber "
+        x = x.replace(",", "")
+        x = x.replace(".", "")
+        x = int(x)
+
+        if 1950 <= x <= 2015:
+            return " year "
+        elif x < x < 50:
+            return " smallnumber "
+        elif x == 0:
+            return " zeronumber "
+        elif x < 0:
+            return " negativenumber "
+        elif x in [10, 100, 500, 1000, 10000, 100000]:
+            return " %d " % x
+        else:
+            return " othernumber "
+    except Exception, e:
+        return " errornumber "
 bad_words = set([line.strip().lower() for line in open(PROJECT + 'db/badwords-adult.txt')])
 
 from collections import Counter
@@ -60,6 +95,12 @@ def parse_text(text):
     text = phonenumber_re.sub(" dummyphone ", text)
 #    text = dotdot_re.sub(lambda m: "%s %s %s" % (m.group(1), m.group(2), m.group(4)), text)
 
+    text = money_number_re.sub(numrepl, text)
+    text = plain_number_re.sub(numrepl, text)
+
+    text = smiley_re.sub(" smiley ", text)
+    text = haha_re.sub(" haha ", text)
+
 #    text = youre_re.sub("you're", text) # TODO: proper split
     text = oddities_re.sub(lambda m: " %s " % m.group(1), text)
     text = tokenize2_re.sub(lambda m: "%s %s " % (m.group(1), m.group(2)), text)
@@ -75,25 +116,52 @@ def create_features(X, user_data):
 
     for date, comment, user in X:
         feat = {}
+        has_hate_word = has_drug_word = has_cult_word = has_occult_word = has_porn_word = 0
+        has_fwenzel_word = 0
+
 
         comment = comment.lower()
 
         comment = parse_text(comment)
+
+        comment = nltk.clean_html(comment) # adult
 
         sents = sent_tokenize(comment)
         doc = []
         for sent in sents:
             # Tokenize each sentence.
             doc += wordtokenizer.tokenize(sent)
+        def repl_filter(x):
+            return x.lower() not in ["nl", "nl2", "nbsp", "nbsp2", "dummyhtml"]
+
+        # Remove stopwords and replacement tokens.
+        doc = filter(repl_filter, doc)
 
         for i, word in enumerate(doc):
             if doc[i] in bad_words:
                 doc[i] = '_badword_'
+
             doc[i] = ps.stem(doc[i])
+
             doc[i] = wnl.lemmatize(doc[i])
+
             if doc[i] in bad_words:
                 doc[i] = '_badword_'
             all_words[doc[i]] += 1
+
+
+            if doc[i] in hate_words:
+                has_hate_word = 1
+            if doc[i] in drug_words:
+                has_drug_word = 1
+            if doc[i] in cult_words:
+                has_cult_word = 1
+            if doc[i] in occult_words:
+                has_occult_word = 1
+            if doc[i] in porn_words:
+                has_porn_word = 1
+            if doc[i] in fwenzel_words:
+                has_fwenzel_word = 1
 
 #        trigram_finder = TrigramCollocationFinder.from_words(comment)
 #        trigrams = trigram_finder.nbest(TrigramAssocMeasures.chi_sq, n=10)
@@ -109,6 +177,10 @@ def create_features(X, user_data):
         text_vocab = set(w for w in doc if w.isalpha())
         unusual = text_vocab.difference(english_vocab)
         unusual_ratio = len(unusual) / len(text_vocab) if len(text_vocab) != 0 else -1.0
+
+        unusual2 = unusual.difference(set("_badword_"))
+        unusual_ratio2 = len(unusual2) / len(text_vocab) if len(text_vocab) != 0 else -1.0
+
 
         user_info = user_data[user]
 
@@ -137,9 +209,10 @@ def create_features(X, user_data):
         feat['_AlwaysPresent'] = True
         feat['_word_num'] = len(doc)
         feat['_sent_num'] = len(sents)
-        feat['_word_var'] = len(set(doc)) / len(doc)
+        feat['_word_var'] = len(set(doc)) / len(doc) if len(doc) != 0 else -1.0
         feat['_sent_var'] = len(set(sents)) / len(sents)
         feat['_unusual_ratio'] = unusual_ratio
+        feat['_unusual_ratio2'] = unusual_ratio2
         feat['_username'] = user
         feat['_user_subcount'] = int(user_info['SubscriberCount'])
         feat['_user_friends'] = int(user_info['FriendsAdded'])
@@ -162,6 +235,12 @@ def create_features(X, user_data):
         feat['_user_has_hometown'] = 1 if user_info['Hometown'] is not None else 0
 #        feat['_user_last'] = user_info['LastWebAccess']
 #        feat['_has_bad_word'] = has_bad_word
+#        feat['_has_hate_word'] = has_hate_word
+#        feat['_has_drug_word'] = has_drug_word
+        feat['_has_cult_word'] = has_cult_word
+#        feat['_has_occult_word'] = has_occult_word
+#        feat['_has_has_fwenzel_word'] = has_fwenzel_word
+        feat['_has_porn_word'] = has_porn_word
         feat.update(read_feat)
 
 #        print feat
