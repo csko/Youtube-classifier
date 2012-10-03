@@ -43,6 +43,7 @@ cult_words = set([x['word'].lower() for x in reveal_words if x['category'] == 'c
 occult_words = set([x['word'].lower() for x in reveal_words if x['category'] == 'occult'])
 porn_words = set([x['word'].lower() for x in reveal_words if x['category'] == 'pornographic'])
 fwenzel_words = set([word for word in open(PROJECT + 'db/corp/word_list_dirty_words/word_list-fwenzel_reporter.txt').read().split("\n") if len(word.split()) == 1])
+swastika = u"卐"
 
 def numrepl(m):
     try:
@@ -118,7 +119,7 @@ def create_features(X, user_data):
         feat = {}
         has_hate_word = has_drug_word = has_cult_word = has_occult_word = has_porn_word = 0
         has_fwenzel_word = 0
-
+        has_swastika = swastika in comment
 
         comment = comment.lower()
 
@@ -147,6 +148,7 @@ def create_features(X, user_data):
 
             if doc[i] in bad_words:
                 doc[i] = '_badword_'
+
             all_words[doc[i]] += 1
 
 
@@ -238,9 +240,11 @@ def create_features(X, user_data):
 #        feat['_has_hate_word'] = has_hate_word
 #        feat['_has_drug_word'] = has_drug_word
         feat['_has_cult_word'] = has_cult_word
+        feat['_has_swastika'] = has_swastika
 #        feat['_has_occult_word'] = has_occult_word
 #        feat['_has_has_fwenzel_word'] = has_fwenzel_word
         feat['_has_porn_word'] = has_porn_word
+        feat['_has_swastika'] = has_swastika
         feat.update(read_feat)
 
 #        print feat
@@ -262,6 +266,9 @@ def kfold_run((i, k, cls, train_X, train_y, test_X, test_y)):
 def main():
     sys.stdout = codecs.getwriter('utf8')(sys.stdout)
 
+    res = kfold(10)
+
+def kfold(k=10):
     print "Loading data."
     videos, users, reviews = load_data()
 
@@ -277,7 +284,6 @@ def main():
 #    print all_words.most_common(10);quit()
 
     print "Starting K-fold cross validation."
-    k = 10
     cv = cross_validation.KFold(len(feats), k=k, indices=True)
 
     cls = LogisticRegression(penalty='l2', tol=0.00001, fit_intercept=False, dual=False, C=2.4105, class_weight=None)
@@ -303,12 +309,13 @@ def main():
 #            for j in worst:
             for j in range(len(orig_test)):
                 if test_y[j] != preds[j]:
-                    print j, orig_test[j], test_y[j], preds[j]
+                    print j, orig_test[j][1], test_y[j], preds[j]
             #quit()
 
         f1 = metrics.f1_score(test_y, preds)
         print "Fold %d F1 score: %.5f" % (i, f1)
         f1sum += f1
+    avgf1 = (f1sum / k)
     print "Mean F1 score: %.5f" % (f1sum / k)
 
 #    scores = cross_validation.cross_val_score(cls, feats, y, cv=10, score_func=metrics.f1_score)
@@ -316,6 +323,7 @@ def main():
 #        print "Fold %d: %.5f" % (i, score)
 #    print "Mean score: %0.5f (+/- %0.2f)" % (scores.mean(), scores.std() / 2)
 
+    return avgf1
 
 if __name__ == "__main__":
     main()

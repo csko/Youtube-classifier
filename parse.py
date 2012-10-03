@@ -78,7 +78,7 @@ def parse(doc):
     return video, users
 
 def load_data():
-    path1 = PROJECT + "db/teachingdata.updated.set01/"
+    path1 = PROJECT + "db/teachingdata.updated.set01-2012-10-01-v2/"
     path2 = PROJECT + "db/teachingdata.set02/"
     videos = []
     users = {}
