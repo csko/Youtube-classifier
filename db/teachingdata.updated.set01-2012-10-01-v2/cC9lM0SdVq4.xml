@@ -1,0 +1,2155 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tva:TVAMain xmlns:tva="urn:tva:metadata:2011" xmlns:mpeg7="urn:tva:mpeg7:2008" xml:lang="en">
+  <tva:MetadataOriginationInformationTable>
+    <tva:MetadataOriginationInformation originID="1895741703">
+      <tva:Publisher>YouTube</tva:Publisher>
+      <tva:RightsOwner>communitychannel, http://gdata.youtube.com/feeds/api/users/communitychannel</tva:RightsOwner>
+    </tva:MetadataOriginationInformation>
+  </tva:MetadataOriginationInformationTable>
+  <tva:ProgramDescription>
+    <tva:ProgramInformationTable>
+      <tva:ProgramInformation fragmentId="487" fragmentVersion="0" programId="crid://youtube.com/cC9lM0SdVq4">
+        <tva:BasicDescription>
+          <tva:Title type="main" xml:lang="eng">LOOK ME IN THE EYES</tva:Title>
+          <tva:Synopsis length="long" xml:lang="eng">and tell me you don't dig it. Subscribe for new vid in 4 days and don't forget to comment and let me know if you crumble under the pressure of eye contact. Keep up to date with Twitter: www.twitter.com or Facebook: www.facebook.com Hope you're all well and having a wonderful weekend and that you have a great start to the week. x</tva:Synopsis>
+          <tva:Keyword type="main">communitychannel</tva:Keyword>
+          <tva:Keyword type="main">natalie</tva:Keyword>
+          <tva:Keyword type="main">tran</tva:Keyword>
+          <tva:Keyword type="main">always</tva:Keyword>
+          <tva:Keyword type="main">looks</tva:Keyword>
+          <tva:Keyword type="main">your</tva:Keyword>
+          <tva:Keyword type="main">mum</tva:Keyword>
+          <tva:Keyword type="main">in</tva:Keyword>
+          <tva:Keyword type="main">the</tva:Keyword>
+          <tva:Keyword type="main">eyes</tva:Keyword>
+          <tva:Keyword type="main">when</tva:Keyword>
+          <tva:Keyword type="main">they</tva:Keyword>
+          <tva:Keyword type="main">make</tva:Keyword>
+          <tva:Keyword type="main">love</tva:Keyword>
+          <tva:Genre href="urn:tva:metadata:cs:ContentCS:2011:3.5.7">
+            <tva:Name xml:lang="en">Comedy</tva:Name>
+          </tva:Genre>
+          <tva:Genre href="urn:tva:metadata:cs:FormatCS:2011:2.7.3.11">
+            <tva:Name xml:lang="en">Non-linear audio-video</tva:Name>
+            <tva:Definition xml:lang="en">Services where the interaction is based mostly around choosing alternate audio or video files - VOD and AOD, maybe combined with 2.1.1.15 (multi stream)</tva:Definition>
+          </tva:Genre>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:6">
+              <tva:Name xml:lang="en">Recommendation</tva:Name>
+              <tva:Definition xml:lang="en">The reference points to a resource recommended the provider of the current resource. The service provider considers there to be similarities between the
+			currently described resource and the referenced resource. Example: This could provide access to previous or next episodes or to all episodes (the parent series as a whole).
+			Suggestion to record a programme which the broadcaster recommends because of what the user is watching.It could also point to a Web site proposing related programmes
+			‘recommended’ by the service provider. A recommendation can be used to suggest content or services or services bundles with a similar subject.</tva:Definition>
+            </tva:HowRelated>
+            <tva:Format href="urn:tva:metadata:cs:FormatCS:2011:2.7.3.11">
+              <tva:Name xml:lang="en">Non-linear audio-video</tva:Name>
+              <tva:Definition xml:lang="en">Services where the interaction is based mostly around choosing alternate audio or video files - VOD and AOD, maybe combined with 2.1.1.15 (multi stream)</tva:Definition>
+            </tva:Format>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>crid://youtube.com/pZda-fdngYA</mpeg7:MediaUri>
+            </tva:MediaLocator>
+            <tva:PromotionalText xml:lang="eng">STARTS WITH A B...</tva:PromotionalText>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/pZda-fdngYA/default.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:47</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/pZda-fdngYA/mqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/pZda-fdngYA/hqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/pZda-fdngYA/1.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:53:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/pZda-fdngYA/2.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:47</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/pZda-fdngYA/3.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:02:40:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:6">
+              <tva:Name xml:lang="en">Recommendation</tva:Name>
+              <tva:Definition xml:lang="en">The reference points to a resource recommended the provider of the current resource. The service provider considers there to be similarities between the
+			currently described resource and the referenced resource. Example: This could provide access to previous or next episodes or to all episodes (the parent series as a whole).
+			Suggestion to record a programme which the broadcaster recommends because of what the user is watching.It could also point to a Web site proposing related programmes
+			‘recommended’ by the service provider. A recommendation can be used to suggest content or services or services bundles with a similar subject.</tva:Definition>
+            </tva:HowRelated>
+            <tva:Format href="urn:tva:metadata:cs:FormatCS:2011:2.7.3.11">
+              <tva:Name xml:lang="en">Non-linear audio-video</tva:Name>
+              <tva:Definition xml:lang="en">Services where the interaction is based mostly around choosing alternate audio or video files - VOD and AOD, maybe combined with 2.1.1.15 (multi stream)</tva:Definition>
+            </tva:Format>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>crid://youtube.com/8fmgFFIwpJo</mpeg7:MediaUri>
+            </tva:MediaLocator>
+            <tva:PromotionalText xml:lang="eng">FASTER</tva:PromotionalText>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/8fmgFFIwpJo/default.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:20:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/8fmgFFIwpJo/mqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/8fmgFFIwpJo/hqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/8fmgFFIwpJo/1.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:40:250F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/8fmgFFIwpJo/2.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:20:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/8fmgFFIwpJo/3.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:02:00:750F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:6">
+              <tva:Name xml:lang="en">Recommendation</tva:Name>
+              <tva:Definition xml:lang="en">The reference points to a resource recommended the provider of the current resource. The service provider considers there to be similarities between the
+			currently described resource and the referenced resource. Example: This could provide access to previous or next episodes or to all episodes (the parent series as a whole).
+			Suggestion to record a programme which the broadcaster recommends because of what the user is watching.It could also point to a Web site proposing related programmes
+			‘recommended’ by the service provider. A recommendation can be used to suggest content or services or services bundles with a similar subject.</tva:Definition>
+            </tva:HowRelated>
+            <tva:Format href="urn:tva:metadata:cs:FormatCS:2011:2.7.3.11">
+              <tva:Name xml:lang="en">Non-linear audio-video</tva:Name>
+              <tva:Definition xml:lang="en">Services where the interaction is based mostly around choosing alternate audio or video files - VOD and AOD, maybe combined with 2.1.1.15 (multi stream)</tva:Definition>
+            </tva:Format>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>crid://youtube.com/vBFemUCm6Io</mpeg7:MediaUri>
+            </tva:MediaLocator>
+            <tva:PromotionalText xml:lang="eng">The Body Shiver</tva:PromotionalText>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/vBFemUCm6Io/default.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:33</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/vBFemUCm6Io/mqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/vBFemUCm6Io/hqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/vBFemUCm6Io/1.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:46:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/vBFemUCm6Io/2.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:33</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/vBFemUCm6Io/3.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:02:19:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:6">
+              <tva:Name xml:lang="en">Recommendation</tva:Name>
+              <tva:Definition xml:lang="en">The reference points to a resource recommended the provider of the current resource. The service provider considers there to be similarities between the
+			currently described resource and the referenced resource. Example: This could provide access to previous or next episodes or to all episodes (the parent series as a whole).
+			Suggestion to record a programme which the broadcaster recommends because of what the user is watching.It could also point to a Web site proposing related programmes
+			‘recommended’ by the service provider. A recommendation can be used to suggest content or services or services bundles with a similar subject.</tva:Definition>
+            </tva:HowRelated>
+            <tva:Format href="urn:tva:metadata:cs:FormatCS:2011:2.7.3.11">
+              <tva:Name xml:lang="en">Non-linear audio-video</tva:Name>
+              <tva:Definition xml:lang="en">Services where the interaction is based mostly around choosing alternate audio or video files - VOD and AOD, maybe combined with 2.1.1.15 (multi stream)</tva:Definition>
+            </tva:Format>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>crid://youtube.com/6tDRBb0apDg</mpeg7:MediaUri>
+            </tva:MediaLocator>
+            <tva:PromotionalText xml:lang="eng">The Best Joke Ever!</tva:PromotionalText>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/6tDRBb0apDg/default.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:17:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/6tDRBb0apDg/mqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/6tDRBb0apDg/hqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/6tDRBb0apDg/1.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:38:750F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/6tDRBb0apDg/2.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:17:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/6tDRBb0apDg/3.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:56:250F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:6">
+              <tva:Name xml:lang="en">Recommendation</tva:Name>
+              <tva:Definition xml:lang="en">The reference points to a resource recommended the provider of the current resource. The service provider considers there to be similarities between the
+			currently described resource and the referenced resource. Example: This could provide access to previous or next episodes or to all episodes (the parent series as a whole).
+			Suggestion to record a programme which the broadcaster recommends because of what the user is watching.It could also point to a Web site proposing related programmes
+			‘recommended’ by the service provider. A recommendation can be used to suggest content or services or services bundles with a similar subject.</tva:Definition>
+            </tva:HowRelated>
+            <tva:Format href="urn:tva:metadata:cs:FormatCS:2011:2.7.3.11">
+              <tva:Name xml:lang="en">Non-linear audio-video</tva:Name>
+              <tva:Definition xml:lang="en">Services where the interaction is based mostly around choosing alternate audio or video files - VOD and AOD, maybe combined with 2.1.1.15 (multi stream)</tva:Definition>
+            </tva:Format>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>crid://youtube.com/o-YnwXh9z_o</mpeg7:MediaUri>
+            </tva:MediaLocator>
+            <tva:PromotionalText xml:lang="eng">BACK IN MY DAY! a video for my new niece</tva:PromotionalText>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/o-YnwXh9z_o/default.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:37:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/o-YnwXh9z_o/mqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/o-YnwXh9z_o/hqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/o-YnwXh9z_o/1.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:48:750F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/o-YnwXh9z_o/2.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:37:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/o-YnwXh9z_o/3.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:02:26:250F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:6">
+              <tva:Name xml:lang="en">Recommendation</tva:Name>
+              <tva:Definition xml:lang="en">The reference points to a resource recommended the provider of the current resource. The service provider considers there to be similarities between the
+			currently described resource and the referenced resource. Example: This could provide access to previous or next episodes or to all episodes (the parent series as a whole).
+			Suggestion to record a programme which the broadcaster recommends because of what the user is watching.It could also point to a Web site proposing related programmes
+			‘recommended’ by the service provider. A recommendation can be used to suggest content or services or services bundles with a similar subject.</tva:Definition>
+            </tva:HowRelated>
+            <tva:Format href="urn:tva:metadata:cs:FormatCS:2011:2.7.3.11">
+              <tva:Name xml:lang="en">Non-linear audio-video</tva:Name>
+              <tva:Definition xml:lang="en">Services where the interaction is based mostly around choosing alternate audio or video files - VOD and AOD, maybe combined with 2.1.1.15 (multi stream)</tva:Definition>
+            </tva:Format>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>crid://youtube.com/5QlbmPhe4yY</mpeg7:MediaUri>
+            </tva:MediaLocator>
+            <tva:PromotionalText xml:lang="eng">CommunityChannel TV Interview</tva:PromotionalText>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/5QlbmPhe4yY/default.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:02:02</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/5QlbmPhe4yY/mqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/5QlbmPhe4yY/hqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/5QlbmPhe4yY/1.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:01</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/5QlbmPhe4yY/2.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:02:02</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/5QlbmPhe4yY/3.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:03:03</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:6">
+              <tva:Name xml:lang="en">Recommendation</tva:Name>
+              <tva:Definition xml:lang="en">The reference points to a resource recommended the provider of the current resource. The service provider considers there to be similarities between the
+			currently described resource and the referenced resource. Example: This could provide access to previous or next episodes or to all episodes (the parent series as a whole).
+			Suggestion to record a programme which the broadcaster recommends because of what the user is watching.It could also point to a Web site proposing related programmes
+			‘recommended’ by the service provider. A recommendation can be used to suggest content or services or services bundles with a similar subject.</tva:Definition>
+            </tva:HowRelated>
+            <tva:Format href="urn:tva:metadata:cs:FormatCS:2011:2.7.3.11">
+              <tva:Name xml:lang="en">Non-linear audio-video</tva:Name>
+              <tva:Definition xml:lang="en">Services where the interaction is based mostly around choosing alternate audio or video files - VOD and AOD, maybe combined with 2.1.1.15 (multi stream)</tva:Definition>
+            </tva:Format>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>crid://youtube.com/L7Ro7KcXbrQ</mpeg7:MediaUri>
+            </tva:MediaLocator>
+            <tva:PromotionalText xml:lang="eng">You Looking At P@#!?</tva:PromotionalText>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/L7Ro7KcXbrQ/default.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:14</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/L7Ro7KcXbrQ/mqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/L7Ro7KcXbrQ/hqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/L7Ro7KcXbrQ/1.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:37</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/L7Ro7KcXbrQ/2.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:14</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/L7Ro7KcXbrQ/3.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:51</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:6">
+              <tva:Name xml:lang="en">Recommendation</tva:Name>
+              <tva:Definition xml:lang="en">The reference points to a resource recommended the provider of the current resource. The service provider considers there to be similarities between the
+			currently described resource and the referenced resource. Example: This could provide access to previous or next episodes or to all episodes (the parent series as a whole).
+			Suggestion to record a programme which the broadcaster recommends because of what the user is watching.It could also point to a Web site proposing related programmes
+			‘recommended’ by the service provider. A recommendation can be used to suggest content or services or services bundles with a similar subject.</tva:Definition>
+            </tva:HowRelated>
+            <tva:Format href="urn:tva:metadata:cs:FormatCS:2011:2.7.3.11">
+              <tva:Name xml:lang="en">Non-linear audio-video</tva:Name>
+              <tva:Definition xml:lang="en">Services where the interaction is based mostly around choosing alternate audio or video files - VOD and AOD, maybe combined with 2.1.1.15 (multi stream)</tva:Definition>
+            </tva:Format>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>crid://youtube.com/zUFc0A7vGwc</mpeg7:MediaUri>
+            </tva:MediaLocator>
+            <tva:PromotionalText xml:lang="eng">SPOT THE DIFFERENCE GAME</tva:PromotionalText>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zUFc0A7vGwc/default.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:21</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zUFc0A7vGwc/mqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zUFc0A7vGwc/hqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zUFc0A7vGwc/1.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:10:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zUFc0A7vGwc/2.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:21</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zUFc0A7vGwc/3.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:31:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:6">
+              <tva:Name xml:lang="en">Recommendation</tva:Name>
+              <tva:Definition xml:lang="en">The reference points to a resource recommended the provider of the current resource. The service provider considers there to be similarities between the
+			currently described resource and the referenced resource. Example: This could provide access to previous or next episodes or to all episodes (the parent series as a whole).
+			Suggestion to record a programme which the broadcaster recommends because of what the user is watching.It could also point to a Web site proposing related programmes
+			‘recommended’ by the service provider. A recommendation can be used to suggest content or services or services bundles with a similar subject.</tva:Definition>
+            </tva:HowRelated>
+            <tva:Format href="urn:tva:metadata:cs:FormatCS:2011:2.7.3.11">
+              <tva:Name xml:lang="en">Non-linear audio-video</tva:Name>
+              <tva:Definition xml:lang="en">Services where the interaction is based mostly around choosing alternate audio or video files - VOD and AOD, maybe combined with 2.1.1.15 (multi stream)</tva:Definition>
+            </tva:Format>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>crid://youtube.com/zRyf23boUO4</mpeg7:MediaUri>
+            </tva:MediaLocator>
+            <tva:PromotionalText xml:lang="eng">I HATE PAST NATALIE</tva:PromotionalText>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zRyf23boUO4/default.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:46:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zRyf23boUO4/mqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zRyf23boUO4/hqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zRyf23boUO4/1.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:53:250F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zRyf23boUO4/2.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:46:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zRyf23boUO4/3.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:02:39:750F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:6">
+              <tva:Name xml:lang="en">Recommendation</tva:Name>
+              <tva:Definition xml:lang="en">The reference points to a resource recommended the provider of the current resource. The service provider considers there to be similarities between the
+			currently described resource and the referenced resource. Example: This could provide access to previous or next episodes or to all episodes (the parent series as a whole).
+			Suggestion to record a programme which the broadcaster recommends because of what the user is watching.It could also point to a Web site proposing related programmes
+			‘recommended’ by the service provider. A recommendation can be used to suggest content or services or services bundles with a similar subject.</tva:Definition>
+            </tva:HowRelated>
+            <tva:Format href="urn:tva:metadata:cs:FormatCS:2011:2.7.3.11">
+              <tva:Name xml:lang="en">Non-linear audio-video</tva:Name>
+              <tva:Definition xml:lang="en">Services where the interaction is based mostly around choosing alternate audio or video files - VOD and AOD, maybe combined with 2.1.1.15 (multi stream)</tva:Definition>
+            </tva:Format>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>crid://youtube.com/zyQI3lGPxZQ</mpeg7:MediaUri>
+            </tva:MediaLocator>
+            <tva:PromotionalText xml:lang="eng">10 Annoying People You See Driving</tva:PromotionalText>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zyQI3lGPxZQ/default.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:19:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zyQI3lGPxZQ/mqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zyQI3lGPxZQ/hqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zyQI3lGPxZQ/1.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:39:750F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zyQI3lGPxZQ/2.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:19:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zyQI3lGPxZQ/3.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:59:250F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:6">
+              <tva:Name xml:lang="en">Recommendation</tva:Name>
+              <tva:Definition xml:lang="en">The reference points to a resource recommended the provider of the current resource. The service provider considers there to be similarities between the
+			currently described resource and the referenced resource. Example: This could provide access to previous or next episodes or to all episodes (the parent series as a whole).
+			Suggestion to record a programme which the broadcaster recommends because of what the user is watching.It could also point to a Web site proposing related programmes
+			‘recommended’ by the service provider. A recommendation can be used to suggest content or services or services bundles with a similar subject.</tva:Definition>
+            </tva:HowRelated>
+            <tva:Format href="urn:tva:metadata:cs:FormatCS:2011:2.7.3.11">
+              <tva:Name xml:lang="en">Non-linear audio-video</tva:Name>
+              <tva:Definition xml:lang="en">Services where the interaction is based mostly around choosing alternate audio or video files - VOD and AOD, maybe combined with 2.1.1.15 (multi stream)</tva:Definition>
+            </tva:Format>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>crid://youtube.com/pM1Q-sW43nc</mpeg7:MediaUri>
+            </tva:MediaLocator>
+            <tva:PromotionalText xml:lang="eng">WFW 3 - Natalie wants a CHURRO!</tva:PromotionalText>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/pM1Q-sW43nc/default.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:03:20:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/pM1Q-sW43nc/mqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/pM1Q-sW43nc/hqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/pM1Q-sW43nc/1.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:40:250F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/pM1Q-sW43nc/2.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:03:20:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/pM1Q-sW43nc/3.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:05:00:750F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:6">
+              <tva:Name xml:lang="en">Recommendation</tva:Name>
+              <tva:Definition xml:lang="en">The reference points to a resource recommended the provider of the current resource. The service provider considers there to be similarities between the
+			currently described resource and the referenced resource. Example: This could provide access to previous or next episodes or to all episodes (the parent series as a whole).
+			Suggestion to record a programme which the broadcaster recommends because of what the user is watching.It could also point to a Web site proposing related programmes
+			‘recommended’ by the service provider. A recommendation can be used to suggest content or services or services bundles with a similar subject.</tva:Definition>
+            </tva:HowRelated>
+            <tva:Format href="urn:tva:metadata:cs:FormatCS:2011:2.7.3.11">
+              <tva:Name xml:lang="en">Non-linear audio-video</tva:Name>
+              <tva:Definition xml:lang="en">Services where the interaction is based mostly around choosing alternate audio or video files - VOD and AOD, maybe combined with 2.1.1.15 (multi stream)</tva:Definition>
+            </tva:Format>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>crid://youtube.com/A3-UvzsGAXU</mpeg7:MediaUri>
+            </tva:MediaLocator>
+            <tva:PromotionalText xml:lang="eng">Can You Solve This?</tva:PromotionalText>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/A3-UvzsGAXU/default.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:53:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/A3-UvzsGAXU/mqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/A3-UvzsGAXU/hqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/A3-UvzsGAXU/1.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:26:750F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/A3-UvzsGAXU/2.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:53:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/A3-UvzsGAXU/3.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:20:250F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:6">
+              <tva:Name xml:lang="en">Recommendation</tva:Name>
+              <tva:Definition xml:lang="en">The reference points to a resource recommended the provider of the current resource. The service provider considers there to be similarities between the
+			currently described resource and the referenced resource. Example: This could provide access to previous or next episodes or to all episodes (the parent series as a whole).
+			Suggestion to record a programme which the broadcaster recommends because of what the user is watching.It could also point to a Web site proposing related programmes
+			‘recommended’ by the service provider. A recommendation can be used to suggest content or services or services bundles with a similar subject.</tva:Definition>
+            </tva:HowRelated>
+            <tva:Format href="urn:tva:metadata:cs:FormatCS:2011:2.7.3.11">
+              <tva:Name xml:lang="en">Non-linear audio-video</tva:Name>
+              <tva:Definition xml:lang="en">Services where the interaction is based mostly around choosing alternate audio or video files - VOD and AOD, maybe combined with 2.1.1.15 (multi stream)</tva:Definition>
+            </tva:Format>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>crid://youtube.com/ZzeNRmGtZf0</mpeg7:MediaUri>
+            </tva:MediaLocator>
+            <tva:PromotionalText xml:lang="eng">OMG you look SO hot</tva:PromotionalText>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/ZzeNRmGtZf0/default.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:14:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/ZzeNRmGtZf0/mqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/ZzeNRmGtZf0/hqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/ZzeNRmGtZf0/1.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:37:250F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/ZzeNRmGtZf0/2.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:14:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/ZzeNRmGtZf0/3.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:51:750F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:6">
+              <tva:Name xml:lang="en">Recommendation</tva:Name>
+              <tva:Definition xml:lang="en">The reference points to a resource recommended the provider of the current resource. The service provider considers there to be similarities between the
+			currently described resource and the referenced resource. Example: This could provide access to previous or next episodes or to all episodes (the parent series as a whole).
+			Suggestion to record a programme which the broadcaster recommends because of what the user is watching.It could also point to a Web site proposing related programmes
+			‘recommended’ by the service provider. A recommendation can be used to suggest content or services or services bundles with a similar subject.</tva:Definition>
+            </tva:HowRelated>
+            <tva:Format href="urn:tva:metadata:cs:FormatCS:2011:2.7.3.11">
+              <tva:Name xml:lang="en">Non-linear audio-video</tva:Name>
+              <tva:Definition xml:lang="en">Services where the interaction is based mostly around choosing alternate audio or video files - VOD and AOD, maybe combined with 2.1.1.15 (multi stream)</tva:Definition>
+            </tva:Format>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>crid://youtube.com/rK1kUWpMuCI</mpeg7:MediaUri>
+            </tva:MediaLocator>
+            <tva:PromotionalText xml:lang="eng">SPIDA</tva:PromotionalText>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/rK1kUWpMuCI/default.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:16:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/rK1kUWpMuCI/mqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/rK1kUWpMuCI/hqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/rK1kUWpMuCI/1.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:08:250F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/rK1kUWpMuCI/2.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:16:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/rK1kUWpMuCI/3.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:24:750F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:6">
+              <tva:Name xml:lang="en">Recommendation</tva:Name>
+              <tva:Definition xml:lang="en">The reference points to a resource recommended the provider of the current resource. The service provider considers there to be similarities between the
+			currently described resource and the referenced resource. Example: This could provide access to previous or next episodes or to all episodes (the parent series as a whole).
+			Suggestion to record a programme which the broadcaster recommends because of what the user is watching.It could also point to a Web site proposing related programmes
+			‘recommended’ by the service provider. A recommendation can be used to suggest content or services or services bundles with a similar subject.</tva:Definition>
+            </tva:HowRelated>
+            <tva:Format href="urn:tva:metadata:cs:FormatCS:2011:2.7.3.11">
+              <tva:Name xml:lang="en">Non-linear audio-video</tva:Name>
+              <tva:Definition xml:lang="en">Services where the interaction is based mostly around choosing alternate audio or video files - VOD and AOD, maybe combined with 2.1.1.15 (multi stream)</tva:Definition>
+            </tva:Format>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>crid://youtube.com/wO2qaIVsgtQ</mpeg7:MediaUri>
+            </tva:MediaLocator>
+            <tva:PromotionalText xml:lang="eng">Talking Trash to mum</tva:PromotionalText>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/wO2qaIVsgtQ/default.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:54:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/wO2qaIVsgtQ/mqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/wO2qaIVsgtQ/hqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/wO2qaIVsgtQ/1.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:57:250F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/wO2qaIVsgtQ/2.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:54:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/wO2qaIVsgtQ/3.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:02:51:750F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:6">
+              <tva:Name xml:lang="en">Recommendation</tva:Name>
+              <tva:Definition xml:lang="en">The reference points to a resource recommended the provider of the current resource. The service provider considers there to be similarities between the
+			currently described resource and the referenced resource. Example: This could provide access to previous or next episodes or to all episodes (the parent series as a whole).
+			Suggestion to record a programme which the broadcaster recommends because of what the user is watching.It could also point to a Web site proposing related programmes
+			‘recommended’ by the service provider. A recommendation can be used to suggest content or services or services bundles with a similar subject.</tva:Definition>
+            </tva:HowRelated>
+            <tva:Format href="urn:tva:metadata:cs:FormatCS:2011:2.7.3.11">
+              <tva:Name xml:lang="en">Non-linear audio-video</tva:Name>
+              <tva:Definition xml:lang="en">Services where the interaction is based mostly around choosing alternate audio or video files - VOD and AOD, maybe combined with 2.1.1.15 (multi stream)</tva:Definition>
+            </tva:Format>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>crid://youtube.com/gCiJdpEhxfw</mpeg7:MediaUri>
+            </tva:MediaLocator>
+            <tva:PromotionalText xml:lang="eng">HOW HAVE YOU NOT?</tva:PromotionalText>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/gCiJdpEhxfw/default.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:13</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/gCiJdpEhxfw/mqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/gCiJdpEhxfw/hqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/gCiJdpEhxfw/1.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:36:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/gCiJdpEhxfw/2.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:13</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/gCiJdpEhxfw/3.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:49:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:6">
+              <tva:Name xml:lang="en">Recommendation</tva:Name>
+              <tva:Definition xml:lang="en">The reference points to a resource recommended the provider of the current resource. The service provider considers there to be similarities between the
+			currently described resource and the referenced resource. Example: This could provide access to previous or next episodes or to all episodes (the parent series as a whole).
+			Suggestion to record a programme which the broadcaster recommends because of what the user is watching.It could also point to a Web site proposing related programmes
+			‘recommended’ by the service provider. A recommendation can be used to suggest content or services or services bundles with a similar subject.</tva:Definition>
+            </tva:HowRelated>
+            <tva:Format href="urn:tva:metadata:cs:FormatCS:2011:2.7.3.11">
+              <tva:Name xml:lang="en">Non-linear audio-video</tva:Name>
+              <tva:Definition xml:lang="en">Services where the interaction is based mostly around choosing alternate audio or video files - VOD and AOD, maybe combined with 2.1.1.15 (multi stream)</tva:Definition>
+            </tva:Format>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>crid://youtube.com/DKbfvHpUm_8</mpeg7:MediaUri>
+            </tva:MediaLocator>
+            <tva:PromotionalText xml:lang="eng">Waidback- Sydney Australia</tva:PromotionalText>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/DKbfvHpUm_8/default.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:02:09</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/DKbfvHpUm_8/mqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/DKbfvHpUm_8/hqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/DKbfvHpUm_8/1.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:04:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/DKbfvHpUm_8/2.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:02:09</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/DKbfvHpUm_8/3.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:03:13:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:6">
+              <tva:Name xml:lang="en">Recommendation</tva:Name>
+              <tva:Definition xml:lang="en">The reference points to a resource recommended the provider of the current resource. The service provider considers there to be similarities between the
+			currently described resource and the referenced resource. Example: This could provide access to previous or next episodes or to all episodes (the parent series as a whole).
+			Suggestion to record a programme which the broadcaster recommends because of what the user is watching.It could also point to a Web site proposing related programmes
+			‘recommended’ by the service provider. A recommendation can be used to suggest content or services or services bundles with a similar subject.</tva:Definition>
+            </tva:HowRelated>
+            <tva:Format href="urn:tva:metadata:cs:FormatCS:2011:2.7.3.11">
+              <tva:Name xml:lang="en">Non-linear audio-video</tva:Name>
+              <tva:Definition xml:lang="en">Services where the interaction is based mostly around choosing alternate audio or video files - VOD and AOD, maybe combined with 2.1.1.15 (multi stream)</tva:Definition>
+            </tva:Format>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>crid://youtube.com/zi2J1l-0_hQ</mpeg7:MediaUri>
+            </tva:MediaLocator>
+            <tva:PromotionalText xml:lang="eng">2012 Chevrolet Cruze - Cruzed The World By Storm</tva:PromotionalText>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zi2J1l-0_hQ/default.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:16</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zi2J1l-0_hQ/mqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zi2J1l-0_hQ/hqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zi2J1l-0_hQ/1.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:08</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zi2J1l-0_hQ/2.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:16</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zi2J1l-0_hQ/3.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:24</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:6">
+              <tva:Name xml:lang="en">Recommendation</tva:Name>
+              <tva:Definition xml:lang="en">The reference points to a resource recommended the provider of the current resource. The service provider considers there to be similarities between the
+			currently described resource and the referenced resource. Example: This could provide access to previous or next episodes or to all episodes (the parent series as a whole).
+			Suggestion to record a programme which the broadcaster recommends because of what the user is watching.It could also point to a Web site proposing related programmes
+			‘recommended’ by the service provider. A recommendation can be used to suggest content or services or services bundles with a similar subject.</tva:Definition>
+            </tva:HowRelated>
+            <tva:Format href="urn:tva:metadata:cs:FormatCS:2011:2.7.3.11">
+              <tva:Name xml:lang="en">Non-linear audio-video</tva:Name>
+              <tva:Definition xml:lang="en">Services where the interaction is based mostly around choosing alternate audio or video files - VOD and AOD, maybe combined with 2.1.1.15 (multi stream)</tva:Definition>
+            </tva:Format>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>crid://youtube.com/dLvSSyTgmsM</mpeg7:MediaUri>
+            </tva:MediaLocator>
+            <tva:PromotionalText xml:lang="eng">Anime Eyes with MAC</tva:PromotionalText>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/dLvSSyTgmsM/default.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:05:03:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/dLvSSyTgmsM/mqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/dLvSSyTgmsM/hqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/dLvSSyTgmsM/1.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:02:31:750F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/dLvSSyTgmsM/2.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:05:03:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/dLvSSyTgmsM/3.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:07:35:250F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:6">
+              <tva:Name xml:lang="en">Recommendation</tva:Name>
+              <tva:Definition xml:lang="en">The reference points to a resource recommended the provider of the current resource. The service provider considers there to be similarities between the
+			currently described resource and the referenced resource. Example: This could provide access to previous or next episodes or to all episodes (the parent series as a whole).
+			Suggestion to record a programme which the broadcaster recommends because of what the user is watching.It could also point to a Web site proposing related programmes
+			‘recommended’ by the service provider. A recommendation can be used to suggest content or services or services bundles with a similar subject.</tva:Definition>
+            </tva:HowRelated>
+            <tva:Format href="urn:tva:metadata:cs:FormatCS:2011:2.7.3.11">
+              <tva:Name xml:lang="en">Non-linear audio-video</tva:Name>
+              <tva:Definition xml:lang="en">Services where the interaction is based mostly around choosing alternate audio or video files - VOD and AOD, maybe combined with 2.1.1.15 (multi stream)</tva:Definition>
+            </tva:Format>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>crid://youtube.com/E2RzKNCahRg</mpeg7:MediaUri>
+            </tva:MediaLocator>
+            <tva:PromotionalText xml:lang="eng">the "We Just Touched Awkwardly" song</tva:PromotionalText>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/E2RzKNCahRg/default.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:05:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/E2RzKNCahRg/mqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/E2RzKNCahRg/hqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/E2RzKNCahRg/1.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:32:750F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/E2RzKNCahRg/2.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:05:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/E2RzKNCahRg/3.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:38:250F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:6">
+              <tva:Name xml:lang="en">Recommendation</tva:Name>
+              <tva:Definition xml:lang="en">The reference points to a resource recommended the provider of the current resource. The service provider considers there to be similarities between the
+			currently described resource and the referenced resource. Example: This could provide access to previous or next episodes or to all episodes (the parent series as a whole).
+			Suggestion to record a programme which the broadcaster recommends because of what the user is watching.It could also point to a Web site proposing related programmes
+			‘recommended’ by the service provider. A recommendation can be used to suggest content or services or services bundles with a similar subject.</tva:Definition>
+            </tva:HowRelated>
+            <tva:Format href="urn:tva:metadata:cs:FormatCS:2011:2.7.3.11">
+              <tva:Name xml:lang="en">Non-linear audio-video</tva:Name>
+              <tva:Definition xml:lang="en">Services where the interaction is based mostly around choosing alternate audio or video files - VOD and AOD, maybe combined with 2.1.1.15 (multi stream)</tva:Definition>
+            </tva:Format>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>crid://youtube.com/qgtEHbR-ucw</mpeg7:MediaUri>
+            </tva:MediaLocator>
+            <tva:PromotionalText xml:lang="eng">WFW 40 - Quizzing CommunityChannel: Are you smarter than an Australian?</tva:PromotionalText>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/qgtEHbR-ucw/default.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:04:48</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/qgtEHbR-ucw/mqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/qgtEHbR-ucw/hqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/qgtEHbR-ucw/1.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:02:24</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/qgtEHbR-ucw/2.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:04:48</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/qgtEHbR-ucw/3.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:07:12</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:6">
+              <tva:Name xml:lang="en">Recommendation</tva:Name>
+              <tva:Definition xml:lang="en">The reference points to a resource recommended the provider of the current resource. The service provider considers there to be similarities between the
+			currently described resource and the referenced resource. Example: This could provide access to previous or next episodes or to all episodes (the parent series as a whole).
+			Suggestion to record a programme which the broadcaster recommends because of what the user is watching.It could also point to a Web site proposing related programmes
+			‘recommended’ by the service provider. A recommendation can be used to suggest content or services or services bundles with a similar subject.</tva:Definition>
+            </tva:HowRelated>
+            <tva:Format href="urn:tva:metadata:cs:FormatCS:2011:2.7.3.11">
+              <tva:Name xml:lang="en">Non-linear audio-video</tva:Name>
+              <tva:Definition xml:lang="en">Services where the interaction is based mostly around choosing alternate audio or video files - VOD and AOD, maybe combined with 2.1.1.15 (multi stream)</tva:Definition>
+            </tva:Format>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>crid://youtube.com/zmYMkl1Grzc</mpeg7:MediaUri>
+            </tva:MediaLocator>
+            <tva:PromotionalText xml:lang="eng">Michael Buble - Sway (Lyrics in the description)</tva:PromotionalText>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zmYMkl1Grzc/default.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:35</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zmYMkl1Grzc/mqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zmYMkl1Grzc/hqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zmYMkl1Grzc/1.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:47:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zmYMkl1Grzc/2.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:35</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/zmYMkl1Grzc/3.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:02:22:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:6">
+              <tva:Name xml:lang="en">Recommendation</tva:Name>
+              <tva:Definition xml:lang="en">The reference points to a resource recommended the provider of the current resource. The service provider considers there to be similarities between the
+			currently described resource and the referenced resource. Example: This could provide access to previous or next episodes or to all episodes (the parent series as a whole).
+			Suggestion to record a programme which the broadcaster recommends because of what the user is watching.It could also point to a Web site proposing related programmes
+			‘recommended’ by the service provider. A recommendation can be used to suggest content or services or services bundles with a similar subject.</tva:Definition>
+            </tva:HowRelated>
+            <tva:Format href="urn:tva:metadata:cs:FormatCS:2011:2.7.3.11">
+              <tva:Name xml:lang="en">Non-linear audio-video</tva:Name>
+              <tva:Definition xml:lang="en">Services where the interaction is based mostly around choosing alternate audio or video files - VOD and AOD, maybe combined with 2.1.1.15 (multi stream)</tva:Definition>
+            </tva:Format>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>crid://youtube.com/r0xei2lnTIk</mpeg7:MediaUri>
+            </tva:MediaLocator>
+            <tva:PromotionalText xml:lang="eng">levy tran babbling 2</tva:PromotionalText>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/r0xei2lnTIk/default.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:30:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/r0xei2lnTIk/mqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/r0xei2lnTIk/hqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/r0xei2lnTIk/1.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:45:250F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/r0xei2lnTIk/2.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:30:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/r0xei2lnTIk/3.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:02:15:750F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:6">
+              <tva:Name xml:lang="en">Recommendation</tva:Name>
+              <tva:Definition xml:lang="en">The reference points to a resource recommended the provider of the current resource. The service provider considers there to be similarities between the
+			currently described resource and the referenced resource. Example: This could provide access to previous or next episodes or to all episodes (the parent series as a whole).
+			Suggestion to record a programme which the broadcaster recommends because of what the user is watching.It could also point to a Web site proposing related programmes
+			‘recommended’ by the service provider. A recommendation can be used to suggest content or services or services bundles with a similar subject.</tva:Definition>
+            </tva:HowRelated>
+            <tva:Format href="urn:tva:metadata:cs:FormatCS:2011:2.7.3.11">
+              <tva:Name xml:lang="en">Non-linear audio-video</tva:Name>
+              <tva:Definition xml:lang="en">Services where the interaction is based mostly around choosing alternate audio or video files - VOD and AOD, maybe combined with 2.1.1.15 (multi stream)</tva:Definition>
+            </tva:Format>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>crid://youtube.com/6uDhYNiUGC8</mpeg7:MediaUri>
+            </tva:MediaLocator>
+            <tva:PromotionalText xml:lang="eng">BONNIE PINK - Look Me In The Eyes</tva:PromotionalText>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/6uDhYNiUGC8/default.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:02:18</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/6uDhYNiUGC8/mqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/6uDhYNiUGC8/hqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/6uDhYNiUGC8/1.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:09</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/6uDhYNiUGC8/2.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:02:18</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/6uDhYNiUGC8/3.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:03:27</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:6">
+              <tva:Name xml:lang="en">Recommendation</tva:Name>
+              <tva:Definition xml:lang="en">The reference points to a resource recommended the provider of the current resource. The service provider considers there to be similarities between the
+			currently described resource and the referenced resource. Example: This could provide access to previous or next episodes or to all episodes (the parent series as a whole).
+			Suggestion to record a programme which the broadcaster recommends because of what the user is watching.It could also point to a Web site proposing related programmes
+			‘recommended’ by the service provider. A recommendation can be used to suggest content or services or services bundles with a similar subject.</tva:Definition>
+            </tva:HowRelated>
+            <tva:Format href="urn:tva:metadata:cs:FormatCS:2011:2.7.3.11">
+              <tva:Name xml:lang="en">Non-linear audio-video</tva:Name>
+              <tva:Definition xml:lang="en">Services where the interaction is based mostly around choosing alternate audio or video files - VOD and AOD, maybe combined with 2.1.1.15 (multi stream)</tva:Definition>
+            </tva:Format>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>crid://youtube.com/CglDyYZRAKk</mpeg7:MediaUri>
+            </tva:MediaLocator>
+            <tva:PromotionalText xml:lang="eng">SEXY MODEL EDIT - Amy Jackson</tva:PromotionalText>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/CglDyYZRAKk/default.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:46:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/CglDyYZRAKk/mqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/CglDyYZRAKk/hqdefault.jpg</mpeg7:MediaUri>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/CglDyYZRAKk/1.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:23:250F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/CglDyYZRAKk/2.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:00:46:500F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+            <tva:PromotionalMedia>
+              <mpeg7:TitleImage>
+                <mpeg7:MediaUri>http://i.ytimg.com/vi/CglDyYZRAKk/3.jpg</mpeg7:MediaUri>
+                <mpeg7:MediaTimePoint>T00:01:09:750F1000</mpeg7:MediaTimePoint>
+              </mpeg7:TitleImage>
+            </tva:PromotionalMedia>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:19">
+              <tva:Name xml:lang="en">Promotional Still Image</tva:Name>
+              <tva:Definition xml:lang="en">The resource points to a promotional still image for the content programme.</tva:Definition>
+            </tva:HowRelated>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>http://i.ytimg.com/vi/cC9lM0SdVq4/mqdefault.jpg</mpeg7:MediaUri>
+            </tva:MediaLocator>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:19">
+              <tva:Name xml:lang="en">Promotional Still Image</tva:Name>
+              <tva:Definition xml:lang="en">The resource points to a promotional still image for the content programme.</tva:Definition>
+            </tva:HowRelated>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>http://i.ytimg.com/vi/cC9lM0SdVq4/1.jpg</mpeg7:MediaUri>
+            </tva:MediaLocator>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:19">
+              <tva:Name xml:lang="en">Promotional Still Image</tva:Name>
+              <tva:Definition xml:lang="en">The resource points to a promotional still image for the content programme.</tva:Definition>
+            </tva:HowRelated>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>http://i.ytimg.com/vi/cC9lM0SdVq4/2.jpg</mpeg7:MediaUri>
+            </tva:MediaLocator>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:19">
+              <tva:Name xml:lang="en">Promotional Still Image</tva:Name>
+              <tva:Definition xml:lang="en">The resource points to a promotional still image for the content programme.</tva:Definition>
+            </tva:HowRelated>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>http://i.ytimg.com/vi/cC9lM0SdVq4/default.jpg</mpeg7:MediaUri>
+            </tva:MediaLocator>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:19">
+              <tva:Name xml:lang="en">Promotional Still Image</tva:Name>
+              <tva:Definition xml:lang="en">The resource points to a promotional still image for the content programme.</tva:Definition>
+            </tva:HowRelated>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>http://i.ytimg.com/vi/cC9lM0SdVq4/3.jpg</mpeg7:MediaUri>
+            </tva:MediaLocator>
+          </tva:RelatedMaterial>
+          <tva:RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2007:19">
+              <tva:Name xml:lang="en">Promotional Still Image</tva:Name>
+              <tva:Definition xml:lang="en">The resource points to a promotional still image for the content programme.</tva:Definition>
+            </tva:HowRelated>
+            <tva:MediaLocator>
+              <mpeg7:MediaUri>http://i.ytimg.com/vi/cC9lM0SdVq4/hqdefault.jpg</mpeg7:MediaUri>
+            </tva:MediaLocator>
+          </tva:RelatedMaterial>
+        </tva:BasicDescription>
+        <tva:AVAttributes>
+          <tva:AudioAttributes/>
+          <tva:VideoAttributes>
+            <tva:Color type="color"/>
+          </tva:VideoAttributes>
+        </tva:AVAttributes>
+      </tva:ProgramInformation>
+    </tva:ProgramInformationTable>
+    <tva:ProgramLocationTable>
+      <tva:OnDemandService fragmentId="488" fragmentVersion="0" serviceIDRef="YouTube">
+        <tva:OnDemandProgram fragmentId="489" fragmentVersion="0" serviceIDRef="YouTube">
+          <tva:Program crid="crid://youtube.com/cC9lM0SdVq4"/>
+          <tva:ProgramURL>http://www.youtube.com/v/cC9lM0SdVq4?version=3&amp;f=videos&amp;c=iNEM4U&amp;app=youtube_gdata</tva:ProgramURL>
+          <tva:InstanceDescription>
+            <tva:AVAttributes>
+              <tva:AudioAttributes/>
+              <tva:VideoAttributes>
+                <tva:Color type="color"/>
+              </tva:VideoAttributes>
+            </tva:AVAttributes>
+          </tva:InstanceDescription>
+          <tva:PublishedDuration>PT0.189S</tva:PublishedDuration>
+        </tva:OnDemandProgram>
+        <tva:OnDemandProgram fragmentId="490" fragmentVersion="0" serviceIDRef="YouTube">
+          <tva:Program crid="crid://youtube.com/cC9lM0SdVq4"/>
+          <tva:ProgramURL>rtsp://v2.cache2.c.youtube.com/CioLENy73wIaIQmuVp1EM2UvcBMYDSANFEIGaU5FTTRVSAZSBnZpZGVvcww=/0/0/0/video.3gp</tva:ProgramURL>
+          <tva:InstanceDescription>
+            <tva:AVAttributes>
+              <tva:AudioAttributes/>
+              <tva:VideoAttributes>
+                <tva:Color type="color"/>
+              </tva:VideoAttributes>
+            </tva:AVAttributes>
+          </tva:InstanceDescription>
+          <tva:PublishedDuration>PT0.189S</tva:PublishedDuration>
+        </tva:OnDemandProgram>
+        <tva:OnDemandProgram fragmentId="491" fragmentVersion="0" serviceIDRef="YouTube">
+          <tva:Program crid="crid://youtube.com/cC9lM0SdVq4"/>
+          <tva:ProgramURL>rtsp://v4.cache1.c.youtube.com/CioLENy73wIaIQmuVp1EM2UvcBMYESARFEIGaU5FTTRVSAZSBnZpZGVvcww=/0/0/0/video.3gp</tva:ProgramURL>
+          <tva:InstanceDescription>
+            <tva:AVAttributes>
+              <tva:AudioAttributes/>
+              <tva:VideoAttributes>
+                <tva:Color type="color"/>
+              </tva:VideoAttributes>
+            </tva:AVAttributes>
+          </tva:InstanceDescription>
+          <tva:PublishedDuration>PT0.189S</tva:PublishedDuration>
+        </tva:OnDemandProgram>
+      </tva:OnDemandService>
+    </tva:ProgramLocationTable>
+    <tva:ServiceInformationTable>
+      <tva:ServiceInformation fragmentId="515" fragmentVersion="0" serviceId="YouTube">
+        <tva:Name>YouTube</tva:Name>
+        <tva:ServiceURL>http://www.youtube.com/</tva:ServiceURL>
+        <tva:Logo>
+          <mpeg7:MediaUri>file:/I:/IRT/F-RFK/workspace/YouTube%20CIS/java_classes/de/irt/inem4u/youtube/YouTubeContentInformationSource.png</mpeg7:MediaUri>
+        </tva:Logo>
+      </tva:ServiceInformation>
+    </tva:ServiceInformationTable>
+    <tva:ProgramReviewTable>
+      <tva:Review fragmentId="492" fragmentVersion="0" programId="crid://youtube.com/cC9lM0SdVq4">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">ASSASSIN'S﻿ CREED SHIRT!!!!!!</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>Addicted2Daydreaming</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-08-31T13:25:22+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/Addicted2Daydreaming</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="493" fragmentVersion="0" programId="crid://youtube.com/cC9lM0SdVq4">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">I thumbed ya﻿ :)</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>crazeyphrasey</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-08-31T12:09:17+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/crazeyphrasey</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="494" fragmentVersion="0" programId="crid://youtube.com/cC9lM0SdVq4">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">Is it just me or is this﻿ a thinly veiled expression of multiple personality disorder, nat talking to herself and using youtube to normalise this affliction??</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:GivenName>David</mpeg7:GivenName>
+            <mpeg7:FamilyName>Mehigan</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-08-31T11:28:31+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/PV8ged14CJN-DzPND1052g</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="495" fragmentVersion="0" programId="crid://youtube.com/cC9lM0SdVq4">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">OMGOMG﻿ she called me SUPERCOOL!! :D</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>sharonsketches</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-08-31T11:11:16+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/sharonsketches</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="496" fragmentVersion="0" programId="crid://youtube.com/cC9lM0SdVq4">
+        <Adult>true</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">can you﻿ make a lesbian porno seeming how there's always two girls in your videos..you would get more views.</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>UrMumsVagina</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-08-31T09:16:42+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/UrMumsVagina</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="497" fragmentVersion="0" programId="crid://youtube.com/cC9lM0SdVq4">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">very funny ladies,﻿ well done :)</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>mrtrusty101</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-08-31T09:43:10+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/mrtrusty101</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="498" fragmentVersion="0" programId="crid://youtube.com/cC9lM0SdVq4">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">When people lie they tend to quickly﻿ glance to the left. That's why.</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:GivenName>ana</mpeg7:GivenName>
+            <mpeg7:FamilyName>Iglesias</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-08-31T10:10:34+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/ana2k915</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="499" fragmentVersion="0" programId="crid://youtube.com/cC9lM0SdVq4">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">omg were is nat 2:20 they all﻿ look the same D:</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>costcutter12345</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-08-31T12:16:59+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/costcutter12345</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="500" fragmentVersion="0" programId="crid://youtube.com/cC9lM0SdVq4">
+        <Adult>false</Adult>
+        <Spam>true</Spam>
+        <tva:FreeTextReview xml:lang="en">$35 for NIKE Shoes; 
+$35 for Cucci  Handbag; 
+$14 for LV  Sunglasses; 
+$80﻿ for Rolex Watches;
+ ........
+ pickthefashion. com----The Most Cool Shopping site !!!!!!</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>pickthefashioncom87</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-08-31T10:52:06+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/pickthefashioncom87</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="501" fragmentVersion="0" programId="crid://youtube.com/cC9lM0SdVq4">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">haha, thats﻿ how good she is at split screening! :D</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>cheeminess</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-08-31T12:21:12+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/cheeminess</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="502" fragmentVersion="0" programId="crid://youtube.com/cC9lM0SdVq4">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">I love how Nat is an﻿ assassin's creed fan. This is a good thing!</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>Theshad01</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-08-31T12:27:38+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/Theshad01</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="503" fragmentVersion="0" programId="crid://youtube.com/cC9lM0SdVq4">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">Someone once tried to look me in the eyes, they died after 10 days of extreme﻿ pain</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:GivenName>Chuck</mpeg7:GivenName>
+            <mpeg7:FamilyName>Norris</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-08-31T10:58:15+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/z1euuqpkv0mlvuwfWdNg5g</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="504" fragmentVersion="0" programId="crid://youtube.com/cC9lM0SdVq4">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">I would watch a soap with Nat playing all the﻿ characters...</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>n8glore</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-08-31T08:59:35+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/n8glore</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="505" fragmentVersion="0" programId="crid://youtube.com/cC9lM0SdVq4">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">don't forget to thumb me lolwot.
+﻿</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>MrPokherhontus</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-08-31T09:15:30+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/MrPokherhontus</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="506" fragmentVersion="0" programId="crid://youtube.com/cC9lM0SdVq4">
+        <Adult>true</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">we will﻿ spit roast her.</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>UrMumsVagina</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-08-31T12:13:57+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/UrMumsVagina</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="507" fragmentVersion="0" programId="crid://youtube.com/cC9lM0SdVq4">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">Actually,﻿ when people are being deceptive, their pupils dilate.</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>sammibell10</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-08-31T11:23:28+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/sammibell10</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="508" fragmentVersion="0" programId="crid://youtube.com/cC9lM0SdVq4">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">Super﻿ cool :)</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>killsonfire555</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-08-31T09:45:23+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/killsonfire555</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="509" fragmentVersion="0" programId="crid://youtube.com/cC9lM0SdVq4">
+        <Adult>true</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">Give me﻿ your shirt. NOW!</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>NLviv</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-08-31T12:06:32+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/NLviv</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="510" fragmentVersion="0" programId="crid://youtube.com/cC9lM0SdVq4">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">i remember twice i looked at my friend for like 15 secs and they broke under my gaze. ex) friend and i were walking heard weird noise like a clap, i assumed my friend's sandle tripped into a crack on the sidewalk﻿ but i didnt see any. I asked her did you just trip? and she rofled she tooted :)</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>balambgar</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-08-31T10:07:20+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/balambgar</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="511" fragmentVersion="0" programId="crid://youtube.com/cC9lM0SdVq4">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">Yes Nat, I'm Super﻿ Cool Like You ...Everyone Is (: Well Almost</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:GivenName>Ezzy</mpeg7:GivenName>
+            <mpeg7:FamilyName>Em</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-08-31T09:20:52+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/EzzyEm97</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="512" fragmentVersion="0" programId="crid://youtube.com/cC9lM0SdVq4">
+        <Adult>false</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">I love your﻿ soap opera scene :D</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>lilme128</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-08-31T12:56:25+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/lilme128</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="513" fragmentVersion="0" programId="crid://youtube.com/cC9lM0SdVq4">
+        <Adult>false</Adult>
+        <Spam>true</Spam>
+        <tva:FreeTextReview xml:lang="en">$35 for NIKE Shoes; 
+$35﻿ for Cucci  Handbag; 
+$14 for LV  Sunglasses; 
+$80 for Rolex Watches;
+ ........
+ pickthefashion. com----The Most Cool Shopping site !!!!!!</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>pickthefashioncom76</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-08-31T09:04:46+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/pickthefashioncom76</tva:ReviewReference>
+      </tva:Review>
+      <tva:Review fragmentId="514" fragmentVersion="0" programId="crid://youtube.com/cC9lM0SdVq4">
+        <Adult>true</Adult>
+        <Spam>false</Spam>
+        <tva:FreeTextReview xml:lang="en">natalie﻿ is a milf. ill fawk and eat her pussy</tva:FreeTextReview>
+        <tva:Reviewer>
+          <tva:PersonName>
+            <mpeg7:FamilyName>Pizzagaki</mpeg7:FamilyName>
+          </tva:PersonName>
+        </tva:Reviewer>
+        <tva:Reviewer>
+          <tva:Publication>2012-08-31T09:14:25+02:00</tva:Publication>
+        </tva:Reviewer>
+        <tva:ReviewReference>http://gdata.youtube.com/feeds/api/users/Pizzagaki</tva:ReviewReference>
+      </tva:Review>
+      <ReviewerData>
+        <Reviewer>
+          <Username>addicted2daydreaming</Username>
+          <Age>16</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>FEMALE</Gender>
+          <LastWebAccess>2012-03-18 23:32</LastWebAccess>
+          <Location>GB</Location>
+          <SubscriberCount>8</SubscriberCount>
+          <UserSubscriptionsAdded>5</UserSubscriptionsAdded>
+          <VideosCommented>12</VideosCommented>
+          <VideosFavourited>4</VideosFavourited>
+          <VideosRated>4</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>crazeyphrasey</Username>
+          <Age>34</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>FEMALE</Gender>
+          <LastWebAccess>2011-02-05 00:49</LastWebAccess>
+          <Location>NZ</Location>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>2</UserSubscriptionsAdded>
+          <VideosCommented>1</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>5</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>Mehigan</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>0</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>0</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>true</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>sharonsketches</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>FEMALE</Gender>
+          <LastWebAccess>2012-08-26 10:41</LastWebAccess>
+          <Location>AU</Location>
+          <SubscriberCount>1</SubscriberCount>
+          <UserSubscriptionsAdded>17</UserSubscriptionsAdded>
+          <VideosCommented>0</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>0</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>urmumsvagina</Username>
+          <Age>22</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>MALE</Gender>
+          <LastWebAccess>2011-11-07 12:42</LastWebAccess>
+          <Location>AF</Location>
+          <SubscriberCount>4</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>25</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>0</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>mrtrusty101</Username>
+          <Age>37</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>MALE</Gender>
+          <LastWebAccess>2010-08-07 07:49</LastWebAccess>
+          <Location>AU</Location>
+          <SubscriberCount>15</SubscriberCount>
+          <UserSubscriptionsAdded>1</UserSubscriptionsAdded>
+          <VideosCommented>11</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>8</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>5</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>Iglesias</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>0</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>0</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>true</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>costcutter12345</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>MALE</Gender>
+          <LastWebAccess>2011-04-26 09:16</LastWebAccess>
+          <Location>GB</Location>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>1</UserSubscriptionsAdded>
+          <VideosCommented>20</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>4</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>pickthefashioncom87</Username>
+          <Age>28</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>FEMALE</Gender>
+          <LastWebAccess>2012-07-27 12:52</LastWebAccess>
+          <Location>CN</Location>
+          <SubscriberCount>1</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>25</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>0</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>cheeminess</Username>
+          <Age>14</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>FEMALE</Gender>
+          <LastWebAccess>2012-05-13 12:11</LastWebAccess>
+          <Location>AU</Location>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>5</UserSubscriptionsAdded>
+          <VideosCommented>20</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>0</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>theshad01</Username>
+          <Age>27</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>MALE</Gender>
+          <LastWebAccess>2011-08-28 21:54</LastWebAccess>
+          <Location>AU</Location>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>0</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>25</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>norris</Username>
+          <Age>32</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>MALE</Gender>
+          <LastWebAccess>2012-06-07 14:44</LastWebAccess>
+          <Location>MY</Location>
+          <SubscriberCount>49</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>0</VideosCommented>
+          <VideosFavourited>1</VideosFavourited>
+          <VideosRated>5</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>19</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>n8glore</Username>
+          <Age>29</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>MALE</Gender>
+          <LastWebAccess>2012-08-20 04:06</LastWebAccess>
+          <Location>US</Location>
+          <SubscriberCount>1</SubscriberCount>
+          <UserSubscriptionsAdded>2</UserSubscriptionsAdded>
+          <VideosCommented>0</VideosCommented>
+          <VideosFavourited>8</VideosFavourited>
+          <VideosRated>15</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>mrpokherhontus</Username>
+          <Age>22</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>MALE</Gender>
+          <LastWebAccess>2012-07-18 09:35</LastWebAccess>
+          <Location>NZ</Location>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>10</UserSubscriptionsAdded>
+          <VideosCommented>5</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>10</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>urmumsvagina</Username>
+          <Age>22</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>MALE</Gender>
+          <LastWebAccess>2011-11-07 12:42</LastWebAccess>
+          <Location>AF</Location>
+          <SubscriberCount>4</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>25</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>0</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>sammibell10</Username>
+          <Age>25</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>FEMALE</Gender>
+          <LastWebAccess>2012-08-31 02:01</LastWebAccess>
+          <Location>AU</Location>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>11</UserSubscriptionsAdded>
+          <VideosCommented>12</VideosCommented>
+          <VideosFavourited>1</VideosFavourited>
+          <VideosRated>1</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>killsonfire555</Username>
+          <Age>23</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>MALE</Gender>
+          <LastWebAccess>2012-08-31 08:20</LastWebAccess>
+          <Location>US</Location>
+          <SubscriberCount>5</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>0</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>0</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>4</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>nlviv</Username>
+          <Age>20</Age>
+          <Books>Nothing special really.</Books>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>FEMALE</Gender>
+          <Hometown>Lochem</Hometown>
+          <Job>Student</Job>
+          <LastWebAccess>2011-05-04 15:35</LastWebAccess>
+          <Location>NL</Location>
+          <Movies>Underworld and Hilary Duff films</Movies>
+          <Music>Paramore, Avril Lavigne, Tatu, Hilary Duff, New found Glory etc.</Music>
+          <School>Primary, high school &amp; collage</School>
+          <SubscriberCount>6</SubscriberCount>
+          <UserSubscriptionsAdded>1</UserSubscriptionsAdded>
+          <VideosCommented>0</VideosCommented>
+          <VideosFavourited>23</VideosFavourited>
+          <VideosRated>1</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>balambgar</Username>
+          <Books>twilight series mouse on the motorcycle monster star wars redemption</Books>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>MALE</Gender>
+          <LastWebAccess>2012-08-27 17:30</LastWebAccess>
+          <Location>US</Location>
+          <Movies>the Last samurai AVATAR i enjoy Gundam, Dragon ball Z ,Avatar the last airbender, inuyasha and a few other anime.</Movies>
+          <Music>KoRn system of a down</Music>
+          <SubscriberCount>12</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>4</VideosCommented>
+          <VideosFavourited>3</VideosFavourited>
+          <VideosRated>18</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>em</Username>
+          <Age>32</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <LastWebAccess>2006-12-02 13:03</LastWebAccess>
+          <SubscriberCount>103</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>0</VideosCommented>
+          <VideosFavourited>1</VideosFavourited>
+          <VideosRated>0</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>lilme128</Username>
+          <Age>22</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>FEMALE</Gender>
+          <LastWebAccess>2012-08-31 09:41</LastWebAccess>
+          <Location>Sydney, AU</Location>
+          <SubscriberCount>2</SubscriberCount>
+          <UserSubscriptionsAdded>14</UserSubscriptionsAdded>
+          <VideosCommented>4</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>7</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>pickthefashioncom76</Username>
+          <Age>25</Age>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>FEMALE</Gender>
+          <LastWebAccess>2012-07-27 12:43</LastWebAccess>
+          <Location>CN</Location>
+          <SubscriberCount>0</SubscriberCount>
+          <UserSubscriptionsAdded>0</UserSubscriptionsAdded>
+          <VideosCommented>25</VideosCommented>
+          <VideosFavourited>0</VideosFavourited>
+          <VideosRated>0</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+        <Reviewer>
+          <Username>pizzagaki</Username>
+          <FriendsAdded>0</FriendsAdded>
+          <Gender>MALE</Gender>
+          <Hometown>Hong Kong, China.</Hometown>
+          <LastWebAccess>2011-06-08 21:08</LastWebAccess>
+          <Location>US</Location>
+          <SubscriberCount>1</SubscriberCount>
+          <UserSubscriptionsAdded>2</UserSubscriptionsAdded>
+          <VideosCommented>14</VideosCommented>
+          <VideosFavourited>5</VideosFavourited>
+          <VideosRated>4</VideosRated>
+          <VideosShared>0</VideosShared>
+          <VideosUploaded>0</VideosUploaded>
+          <UserAccountClosed>false</UserAccountClosed>
+          <UserAccountSuspended>false</UserAccountSuspended>
+        </Reviewer>
+      </ReviewerData>
+    </tva:ProgramReviewTable>
+  </tva:ProgramDescription>
+</tva:TVAMain>
