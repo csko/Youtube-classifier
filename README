@@ -1,0 +1,14 @@
+Youtube comment classifier
+
+Classifies comments as spam or adult content using machine learning tools.
+
+Used tools:
+ - python2
+   - sklearn
+   - numpy
+   - nltk
+   - pyyaml
+
+Used data:
+A set of youtube comments annotated by the Alois Zistler and Mark Guelbahar (Institut fur Rundfunktechnik).
+
