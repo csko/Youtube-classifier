@@ -114,7 +114,7 @@ def parse_text(text):
     text = tokenize2_re.sub(lambda m: "%s %s " % (m.group(1), m.group(2)), text)
     return text
 
-def create_features(X, user_data):
+def create_features(X, user_data = None):
     res = []
 
     for date, comment, user in X:
@@ -122,7 +122,6 @@ def create_features(X, user_data):
         has_hate_word = has_drug_word = has_cult_word = has_occult_word = has_porn_word = 0
         has_fwenzel_word = 0
         has_swastika = swastika in comment
-
 
         comment = comment.lower()
 
@@ -205,7 +204,7 @@ def create_features(X, user_data):
         for test, val in readability.tests_given_lang['eng'].items():
             read_feat["__" + test] = val(readability.text)
 
-        feat['_AlwaysPresent'] = True
+        feat['_always_present'] = True
         feat['_word_num'] = len(doc)
         feat['_sent_num'] = len(sents)
         feat['_word_var'] = len(set(doc)) / len(doc) if len(doc) != 0 else -1.0
@@ -276,7 +275,7 @@ def kfold(k=10):
     feats = v.fit_transform(feats)
 
     print "Starting K-fold cross validation."
-    cv = cross_validation.KFold(len(feats), k=k, indices=True)
+    cv = cross_validation.KFold(len(feats), k=k, indices=True, shuffle=True, random_state=1234)
 
     cls = LogisticRegression(penalty='l2', tol=0.00001, fit_intercept=False, dual=False, C=2.4105, class_weight=None)
     if PRINT_COEFS:
