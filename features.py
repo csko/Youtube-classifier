@@ -12,30 +12,35 @@ import yaml
 from parse import load_data, PROJECT
 from readability.readability import ReadabilityTool
 
-from nltk.collocations import TrigramCollocationFinder
 from nltk.collocations import BigramCollocationFinder
 from nltk.metrics import BigramAssocMeasures
-from nltk.metrics import TrigramAssocMeasures
 from nltk.tokenize import sent_tokenize
 from nltk.tokenize import TreebankWordTokenizer
 from nltk.stem import WordNetLemmatizer
 
-from sklearn import cross_validation
 from sklearn.feature_extraction import DictVectorizer
+#from sklearn.feature_extraction.text import strip_accents_unicode
+
+# learning and k-fold cv
 from sklearn.linear_model import LogisticRegression
 from sklearn import metrics
+from sklearn import cross_validation
 
 PRINT_COEFS = False
 PRINT_ERRORS = True
 
 http_re = re.compile(r"((http|ftp|https):\/\/)?[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&amp;:/~\+#]*[\w\-\@?^=%&amp;/~\+#])?", re.IGNORECASE)
 oddities_re = re.compile(ur"(=|¡¿|·|\\|\^|~|…|“|”|ß|€)")
-tokenize2_re = re.compile(r"(\w+)([-\*.\\/#])+", re.UNICODE)
+tokenize2_re = re.compile(r"(\w+)([-.\\/])+", re.UNICODE)
 phonenumber_re = re.compile(r"(?:\+?1[-. ]?)?\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})")
 haha_re = re.compile(r"[ah]{4,20}", re.IGNORECASE)
 plain_number_re = re.compile(r"-?\d{2,7}(([,\.])\d{2,7})*")
 money_number_re = re.compile(r"[$€]-?\d{2,7}(([,\.])\d{2,7})*", re.UNICODE)
 smiley_re = re.compile(r"((?::|;|=)(?:-)?(?:\)|D|P))")
+swastika = u"卐"
+
+# Wordlists
+bad_words = set([line.strip().lower() for line in open(PROJECT + 'db/badwords-adult.txt')])
 reveal_words = yaml.load(open(PROJECT + 'db/corp/word_list_dirty_words/reveal_questionable_words.yaml').read())[0]['dataset']['payload'][0]['word_list']
 hate_words = set([x['word'].lower() for x in reveal_words if x['category'] == 'hate'])
 drug_words = set([x['word'].lower() for x in reveal_words if x['category'] == 'drug'])
@@ -43,7 +48,12 @@ cult_words = set([x['word'].lower() for x in reveal_words if x['category'] == 'c
 occult_words = set([x['word'].lower() for x in reveal_words if x['category'] == 'occult'])
 porn_words = set([x['word'].lower() for x in reveal_words if x['category'] == 'pornographic'])
 fwenzel_words = set([word for word in open(PROJECT + 'db/corp/word_list_dirty_words/word_list-fwenzel_reporter.txt').read().split("\n") if len(word.split()) == 1])
-swastika = u"卐"
+english_vocab = set(w.lower() for w in nltk.corpus.words.words())
+
+# Tokenizers
+wordtokenizer = TreebankWordTokenizer()
+wnl = WordNetLemmatizer()
+ps = nltk.stem.PorterStemmer()
 
 def numrepl(m):
     try:
@@ -68,13 +78,8 @@ def numrepl(m):
             return " othernumber "
     except Exception, e:
         return " errornumber "
-bad_words = set([line.strip().lower() for line in open(PROJECT + 'db/badwords-adult.txt')])
-
-from collections import Counter
-all_words = Counter()
 
 def parse_text(text):
-    # TODO: regex split
     text = text.replace("_", " ").replace("\r\n", " NL2 ").replace("\n", " NL ") \
             .replace("\'", "'").replace(u"\xc2\xa0", " NBSP ") \
             .replace(u"\xa0", " NBSP2 ")
@@ -89,6 +94,9 @@ def parse_text(text):
 
     text = text.replace(u"\ufeff", " ")
 
+# TODO: this might be faster
+#    text = strip_accents_unicode(text)
+
     text = text.replace(u"’", "'")
     text = text.replace(u"`", "'")
 
@@ -102,7 +110,6 @@ def parse_text(text):
     text = smiley_re.sub(" smiley ", text)
     text = haha_re.sub(" haha ", text)
 
-#    text = youre_re.sub("you're", text) # TODO: proper split
     text = oddities_re.sub(lambda m: " %s " % m.group(1), text)
     text = tokenize2_re.sub(lambda m: "%s %s " % (m.group(1), m.group(2)), text)
     return text
@@ -110,22 +117,19 @@ def parse_text(text):
 def create_features(X, user_data):
     res = []
 
-    wordtokenizer = TreebankWordTokenizer()
-    wnl = WordNetLemmatizer()
-    ps = nltk.stem.PorterStemmer()
-    english_vocab = set(w.lower() for w in nltk.corpus.words.words())
-
     for date, comment, user in X:
         feat = {}
         has_hate_word = has_drug_word = has_cult_word = has_occult_word = has_porn_word = 0
         has_fwenzel_word = 0
         has_swastika = swastika in comment
 
+
         comment = comment.lower()
 
-        comment = parse_text(comment)
 
-        comment = nltk.clean_html(comment) # adult
+        comment = parse_text(comment)
+       
+        comment = nltk.clean_html(comment)
 
         sents = sent_tokenize(comment)
         doc = []
@@ -149,9 +153,6 @@ def create_features(X, user_data):
             if doc[i] in bad_words:
                 doc[i] = '_badword_'
 
-            all_words[doc[i]] += 1
-
-
             if doc[i] in hate_words:
                 has_hate_word = 1
             if doc[i] in drug_words:
@@ -165,15 +166,11 @@ def create_features(X, user_data):
             if doc[i] in fwenzel_words:
                 has_fwenzel_word = 1
 
-#        trigram_finder = TrigramCollocationFinder.from_words(comment)
-#        trigrams = trigram_finder.nbest(TrigramAssocMeasures.chi_sq, n=10)
         bigram_finder = BigramCollocationFinder.from_words(doc)
-        bigrams = bigram_finder.nbest(BigramAssocMeasures.chi_sq, n=12)
+        bigrams = bigram_finder.nbest(BigramAssocMeasures.chi_sq, n=5)
 
-#        trigram = dict([(ngram, True) for ngram in itertools.chain(comment, trigrams)])
         bigram = dict([(ngram, True) for ngram in itertools.chain(doc, bigrams)])
 
-#        feat.update(trigram)
         feat.update(bigram)
 
         text_vocab = set(w for w in doc if w.isalpha())
@@ -184,11 +181,11 @@ def create_features(X, user_data):
         unusual_ratio2 = len(unusual2) / len(text_vocab) if len(text_vocab) != 0 else -1.0
 
 
-        user_info = user_data[user]
+        if user_data is not None:
+            user_info = user_data[user]
 
         has_bad_word = True
         for word in bad_words:
-            break # REMOVE THIS!
             if word in comment.lower():
                 break
         else:
@@ -215,28 +212,31 @@ def create_features(X, user_data):
         feat['_sent_var'] = len(set(sents)) / len(sents)
         feat['_unusual_ratio'] = unusual_ratio
         feat['_unusual_ratio2'] = unusual_ratio2
-        feat['_username'] = user
-        feat['_user_subcount'] = int(user_info['SubscriberCount'])
-        feat['_user_friends'] = int(user_info['FriendsAdded'])
-        feat['_user_favs'] = int(user_info['VideosFavourited'])
-        feat['_user_videorates'] = int(user_info['VideosRated'])
-        feat['_user_videouploads'] = int(user_info['VideosUploaded'])
-        feat['_user_videocomments'] = int(user_info['VideosCommented'])
-        feat['_user_videoshares'] = int(user_info['VideosShared'])
-        feat['_user_usersubs'] = int(user_info['UserSubscriptionsAdded'])
-        feat['_user_gender'] =  c_none(user_info['Gender'])
-        feat['_user_age'] =  n_none(user_info['Age'])
-        feat['_user_closed'] = user_info['UserAccountClosed']
-        feat['_user_suspended'] = user_info['UserAccountSuspended']
-        feat['_user_has_gender'] = 1 if user_info['Gender'] is not None else 0
-        feat['_user_has_school'] = 1 if user_info['School'] is not None else 0
-        feat['_user_has_books'] = 1 if user_info['Books'] is not None else 0
-        feat['_user_has_movies'] = 1 if user_info['Movies'] is not None else 0
-        feat['_user_has_music'] = 1 if user_info['Music'] is not None else 0
-        feat['_user_has_location'] = 1 if user_info['Location'] is not None else 0
-        feat['_user_has_hometown'] = 1 if user_info['Hometown'] is not None else 0
-#        feat['_user_last'] = user_info['LastWebAccess']
-#        feat['_has_bad_word'] = has_bad_word
+        if user_data is not None:
+            feat['_username'] = user
+            feat['_user_subcount'] = int(user_info['SubscriberCount'])
+            feat['_user_friends'] = int(user_info['FriendsAdded'])
+            feat['_user_favs'] = int(user_info['VideosFavourited'])
+            feat['_user_videorates'] = int(user_info['VideosRated'])
+            feat['_user_videouploads'] = int(user_info['VideosUploaded'])
+            feat['_user_videocomments'] = int(user_info['VideosCommented'])
+            feat['_user_videoshares'] = int(user_info['VideosShared'])
+            feat['_user_usersubs'] = int(user_info['UserSubscriptionsAdded'])
+            feat['_user_gender'] =  c_none(user_info['Gender'])
+            feat['_user_age'] =  n_none(user_info['Age'])
+            feat['_user_closed'] = user_info['UserAccountClosed']
+            feat['_user_suspended'] = user_info['UserAccountSuspended']
+            feat['_user_has_gender'] = 1 if user_info['Gender'] is not None else 0
+            feat['_user_has_school'] = 1 if user_info['School'] is not None else 0
+            feat['_user_has_books'] = 1 if user_info['Books'] is not None else 0
+            feat['_user_has_movies'] = 1 if user_info['Movies'] is not None else 0
+            feat['_user_has_music'] = 1 if user_info['Music'] is not None else 0
+            feat['_user_has_location'] = 1 if user_info['Location'] is not None else 0
+            feat['_user_has_hometown'] = 1 if user_info['Hometown'] is not None else 0
+    #        feat['_user_last'] = user_info['LastWebAccess']
+
+    # Dictionary features
+        feat['_has_bad_word'] = has_bad_word
 #        feat['_has_hate_word'] = has_hate_word
 #        feat['_has_drug_word'] = has_drug_word
         feat['_has_cult_word'] = has_cult_word
@@ -249,13 +249,6 @@ def create_features(X, user_data):
 
 #        print feat
         res.append(feat)
-    return res
-
-def select_rows(iterable, rows):
-    res = []
-    for j, row in enumerate(iterable):
-        if j in rows:
-            res.append(row)
     return res
 
 def kfold_run((i, k, cls, train_X, train_y, test_X, test_y)):
@@ -281,7 +274,6 @@ def kfold(k=10):
     print "Vectorizing features."
     v = DictVectorizer(sparse=False)
     feats = v.fit_transform(feats)
-#    print all_words.most_common(10);quit()
 
     print "Starting K-fold cross validation."
     cv = cross_validation.KFold(len(feats), k=k, indices=True)
