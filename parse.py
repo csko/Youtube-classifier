@@ -4,6 +4,7 @@ import os
 import libxml2
 import pprint
 import codecs
+import json
 
 PROJECT = "/data/csko/youtube/"
 
@@ -97,9 +98,17 @@ def load_data():
             reviews += video['reviews']
     return videos, users, reviews
 
+def dump_data(videos, users, reviews, path):
+    """Dumps only the reviews into JSON format"""
+    with open(PROJECT + path, "w") as f:
+        json.dump(reviews, f, sort_keys=True, indent=4)
+
 def main():
     print "Loading data."
     videos, users, reviews = load_data()
+
+    print "Dumping data."
+    dump_data(videos, users, reviews, "db/comments.json")
 
 if __name__ == "__main__":
     main()
