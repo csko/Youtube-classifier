@@ -18,7 +18,8 @@ from nltk.tokenize import sent_tokenize
 from nltk.tokenize import TreebankWordTokenizer
 from nltk.stem import WordNetLemmatizer
 
-from sklearn.feature_extraction import DictVectorizer
+from dict_vectorizer import DictVectorizer
+#from sklearn.feature_extraction import DictVectorizer
 #from sklearn.feature_extraction.text import strip_accents_unicode
 
 # learning and k-fold cv
