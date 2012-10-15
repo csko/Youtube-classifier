@@ -143,7 +143,8 @@ class DictVectorizer:
         D : list of dict_type objects, length = n_samples
             Feature mappings for the samples in X.
         """
-        X = atleast2d_or_csr(X)     # COO matrix is not subscriptable
+        # TODO: sklearn dependency
+#        X = atleast2d_or_csr(X)     # COO matrix is not subscriptable
 
         names = self.feature_names_
         Xd = [dict_type() for _ in xrange(X.shape[0])]
